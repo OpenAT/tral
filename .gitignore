@@ -1,0 +1,45 @@
+
+### Python template
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+
+# Django stuff:
+*.log
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+#odoo
+/*.conf
+/status.ini
+/update.lock
+/backup
+/data_dir
+/log
+/update
+
+# Bash home
+/.bash*
+/.profile
+
+# pycharm
+.idea/
+
+# Mac OSX
+.DS_*
+
+# Sass
+*.css.map
+                                 

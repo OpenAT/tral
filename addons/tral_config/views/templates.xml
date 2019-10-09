@@ -2,82 +2,40 @@
 <openerp>
     <data>
 
-
-    <!-- CUSTOM BOOTSTRAP THEME FOR TRAL -->
-    <!-- HINT: http://getbootstrap.com/customize -->
-    <template id="tral_theme_option"
-              inherit_id="website.themes" name="tral theme option">
-        <xpath expr='//div[@id="themes-list"]' position="inside">
-            <div class="col-md-4">
-                <div class="well text-center">
-                    <div class="image">
-                        <img class="img-responsive" src="/tral_config/static/src/img/tral_theme_thumbnail.png" alt="TRAL"/>
-                    </div>
-                    <div class="options">
-                        <h3>TRAL</h3>
-                        <p>Rotenasen Deutschland</p>
-                        <a class="btn btn-info" href="/website/theme_change?theme_id=website.theme_tral">Apply</a>
+        <!-- CUSTOM BOOTSTRAP THEME FOR TRAL -->
+        <!-- HINT: http://getbootstrap.com/customize -->
+        <template id="tral_theme_option"
+                  inherit_id="website.themes" name="tral theme option">
+            <xpath expr='//div[@id="themes-list"]' position="inside">
+                <div class="col-md-4">
+                    <div class="well text-center">
+                        <div class="image">
+                            <img class="img-responsive" src="/tral_config/static/src/img/tral_theme_thumbnail.png"
+                                 alt="TRAL"/>
+                        </div>
+                        <div class="options">
+                            <h3>TRAL</h3>
+                            <p>Tralalobe</p>
+                            <a class="btn btn-info" href="/website/theme_change?theme_id=website.theme_tral">Apply</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </xpath>
-    </template>
-        
-    <!-- TRAL THEME AND CSS -->
-    <template id="website.theme_tral" name="TRAL"
-              inherit_id="website.theme" active="True" customize_show="True">
-        <xpath expr="//link[@id='bootstrap_css']" position="replace">
-            <link rel='stylesheet' href='/tral_config/static/src/css/tral_bootstrap/css/bootstrap.css' t-ignore="true"/>
-            <link rel='stylesheet' href='/tral_config/static/src/css/tral_bootstrap/css/bootstrap-theme.css' t-ignore="true"/>
-            <link rel='stylesheet' href='/tral_config/static/src/css/tral_01_theme.css' t-ignore="true"/>
-            <link rel='stylesheet' href='/tral_config/static/src/css/tral_01_theme_buttons.css' t-ignore="true"/>
-            <link rel='stylesheet' href='/tral_config/static/src/css/tral_02_shop.css' t-ignore="true"/>
-            <link rel='stylesheet' href='/tral_config/static/src/css/tral_02_shop_categories.css' t-ignore="true"/>
-            <link rel='stylesheet' href='/tral_config/static/src/css/tral_09_glyphicons.css' t-ignore="true"/>
-        </xpath>
-    </template>
+            </xpath>
+        </template>
 
-
-
-
-
-    <!--&lt;!&ndash; CHECKOUT-STEP-INDICATOR &ndash;&gt;-->
-    <!--<template id="tral_wsd_checkout_pages_header" name="TRAL Checkout Steps Regular Buttons"-->
-    <!--          inherit_id="website_sale_donate.wsd_checkout_pages_header" active="True">-->
-    <!--    &lt;!&ndash; Do not Display the Buttons on the right as a navbar to avoid the -15px margin! &ndash;&gt;-->
-    <!--    <xpath expr="//div[@class='checkout_steps_buttons nav navbar-right']" position="attributes">-->
-    <!--        <attribute name="class">checkout_steps_buttons</attribute>-->
-    <!--    </xpath>-->
-    <!--</template>-->
-
-
-    <!--&lt;!&ndash; PRODUCT PAGE - DONATION TEMPLATE &ndash;&gt;-->
-    <!--<template id="tral_ppt_donate" name="PageDonateLayout: Larger Checkoutbox"-->
-    <!--          inherit_id="website_sale_donate.ppt_donate" active="True" customize_show="True">-->
-
-    <!--    &lt;!&ndash; More space for the checkout box and less distance between checkout and description &ndash;&gt;-->
-    <!--    <xpath expr="//div[@class='col-sm-7 col-md-7 col-lg-6']" position="attributes">-->
-    <!--        <attribute name="class">col-md-6</attribute>-->
-    <!--    </xpath>-->
-    <!--    <xpath expr="//div[@id='wsd-checkout-box']" position="attributes">-->
-    <!--        <attribute name="class">col-md-6</attribute>-->
-    <!--    </xpath>-->
-
-    <!--</template>-->
-
-
-    <!--&lt;!&ndash; CHECKOUT PAGE &ndash;&gt;-->
-    <!--<template id="tral_wsd_checkout" name="Checkout: Cart on Top"-->
-    <!--          inherit_id="website_sale_donate.wsd_checkout" active="True" customize_show="True">-->
-    <!--    &lt;!&ndash; Full width for the Shopping Cart and the Form &ndash;&gt;-->
-    <!--    <xpath expr="//div[@id='wsd_checkout_page_right_column']" position="attributes">-->
-    <!--        <attribute name="class">col-md-12</attribute>-->
-    <!--    </xpath>-->
-    <!--    <xpath expr="//div[@id='wsd_checkout_page_left_column']" position="attributes">-->
-    <!--        <attribute name="class">col-md-12</attribute>-->
-    <!--    </xpath>-->
-    <!--</template>-->
-
+        <!-- TRAL THEME AND CSS -->
+        <template id="website.theme_tral" name="TRAL"
+                  inherit_id="website.theme" active="True" customize_show="True">
+            <xpath expr="//link[@id='bootstrap_css']" position="replace">
+                <link rel='stylesheet' href='/tral_config/static/src/css/tral_bootstrap/css/bootstrap.css' t-ignore="true"/>
+                <link rel='stylesheet' href='/tral_config/static/src/css/tral_bootstrap/css/bootstrap-theme.css' t-ignore="true"/>
+                <link rel='stylesheet' href='/tral_config/static/src/css/tral_01_theme.css' t-ignore="true"/>
+                <link rel='stylesheet' href='/tral_config/static/src/css/tral_01_theme_buttons.css' t-ignore="true"/>
+                <link rel='stylesheet' href='/tral_config/static/src/css/tral_02_shop.css' t-ignore="true"/>
+                <link rel='stylesheet' href='/tral_config/static/src/css/tral_02_shop_categories.css' t-ignore="true"/>
+                <link rel='stylesheet' href='/tral_config/static/src/css/tral_09_glyphicons.css' t-ignore="true"/>
+            </xpath>
+        </template>
 
     </data>
 </openerp>

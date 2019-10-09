@@ -22,9 +22,7 @@ Customer configuration for the instance tral
         'fsonline',
     ],
     'data': [
-        'views/templates.xml',
         #'views/snippet_options.xml',
+        'views/templates.xml',
     ],
 }
-
-    

@@ -1,0 +1,139 @@
+/* ----------------------------- */
+/* PRODUCT PAGE AND CHECKOUT BOX */
+/* ----------------------------- */
+
+/* Center the Amount Title */
+body #product_detail .amount_title {
+    text-align: center;
+}
+
+/* Reset the price donate input */
+body .price_donate .form-control {
+    font-size: 24px;
+    padding: inherit;
+    color: inherit;
+    text-align: inherit;
+}
+
+/* Add some space between donation buttons and input on small layout */
+span.price_donate_suggested_outer {
+    display: inline-block;
+     margin-bottom: 12px;
+}
+
+/* Lower the checkoutbox to match the content on the left side */
+body #wsd-checkout-box {
+    margin-top: 16px;
+}
+
+/* Add some space between the text and the interval selection */
+.payment_interval_ids div.form-group{
+    margin-top: 12px;
+}
+
+
+/* ---- */
+/* CART */
+/* ---- */
+.fa-shopping-cart:before {
+    /*content: "\f06c";*/
+    content: "\f184";
+}
+
+/* --------------- */
+/* STEPS INDICATOR */
+/* --------------- */
+
+/* Full width and Buttons below */
+ul.checkout_steps_indicator {
+    width: 100%;
+}
+div.checkout_steps_buttons {
+    width: 100%;
+    text-align: right;
+    margin-top: 1em;
+}
+
+/* -------- */
+/* CHECKOUT */
+/* -------- */
+/*#wsd_checkout_form label.control-label.mandatory.text-danger {*/
+/*    color: #b50227;*/
+/*}*/
+/*#wsd_checkout_form label.control-label.mandatory.text-danger:after {*/
+/*    content: " *";*/
+/*}*/
+
+
+/* ONE PAGE CHECKOUT */
+/* ----------------- */
+/* Hide delivery section TODO: Should be done by xml */
+/*.row .wsd_opc_delivery {*/
+/*    display: none;*/
+/*}*/
+
+/*.ppt_opc h3.amount_title {*/
+/*    text-align: center;*/
+/*}*/
+
+
+/* ------- */
+/* PAYMENT */
+/* ------- */
+/*#payment_method .acquirer_pre_msg p {*/
+/*    padding: 8px;*/
+/*}*/
+
+/*!* BIC ausblenden TODO: Must be done by xml! *!*/
+/*#aq4 > div:nth-child(6) {*/
+/*    display: none;*/
+/*}*/
+
+/*!* E-Mail billing_address email ausblenden TODO: maybe not needed if renamed to "Ihre Angaben" *!*/
+/*.wsd_payment_page_content .payment_billing_address .billing_address .email {*/
+/*    display: none;*/
+/*}*/
+
+/*!* Hide Checkbox for Zahlschein payment method *!*/
+/*#payment_method .do_not_send_payment_forms {*/
+/*    display: none;*/
+/*}*/
+
+/* Payment Tabs */
+/* ------------ */
+/*#payment_method .nav > li > a {*/
+/*    padding: 5px 5px;*/
+/*}*/
+/*#payment_method .nav.nav-tabs li.active a {*/
+/*    background-color: #E3E3E3;*/
+/*}*/
+/*#payment_method .nav.nav-tabs li.active a:hover {*/
+/*    background-color: #E3E3E3;*/
+/*}*/
+/*#payment_method .nav > li {*/
+/*    !*min-width: 100px;*!*/
+/*}*/
+/*#payment_method .nav > li > a {*/
+/*    padding: 5px 5px;*/
+/*    text-align: center;*/
+/*}*/
+/*#payment_method .nav > li > a img {*/
+/*    margin: 0 auto;*/
+/*    width: 60px;*/
+/*    height: 43px;*/
+/*}*/
+/*#payment_method .nav-tabs > li.active > a,*/
+/*#payment_method .nav-tabs > li.active > a:hover,*/
+/*#payment_method .nav-tabs > li.active > a:focus {*/
+/*    color: #3d649e;*/
+/*}*/
+
+
+/* ---------------- */
+/* ACQUIRER BUTTONS */
+/* ---------------- */
+
+/*[data-name='ogonedadi-submit-button'],*/
+/*[data-name='frst-submit-button'] {*/
+/*    max-width: 100%;*/
+/*}*/

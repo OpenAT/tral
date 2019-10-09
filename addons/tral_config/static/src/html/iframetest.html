@@ -1,0 +1,26 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>Title</title>
+    <!-- FS-Online widgets-resize-scripts -->
+    <script type="text/javascript" src="http://spenden.local.com/website_widget_manager/static/lib/iframe-resizer/js/iframeResizer.min.js"></script>
+    <script type="text/javascript">
+        //<![CDATA[
+            document.addEventListener("DOMContentLoaded", function(event) {
+                iFrameResize({baseUrl: 'http://spenden.local.com', heightCalculationMethod: 'taggedElement', checkOrigin: false, enablePublicMethods: true, useGetParam: true, inPageLinks: true, inPageAnchors: true, log: false}, '.fso_iframe')
+            });
+        //]]>
+    </script>
+</head>
+<body>
+<p>I-Frame Test START<br /></p>
+<hr />
+<!--<iframe src="http://spenden.local.com"></iframe>-->
+<!-- FS-Online widget embed code -->
+<iframe id="fso_if3" class="fso_iframe" src="http://spenden.local.com/shop/category/spenden-zu-besonderen-anlassen-2" scrolling="no" frameborder="0" width="100%" style="width:100%; border:none; padding:0; margin:0;"></iframe>
+<hr />
+<p style="width: 100%; background-color: red"><br />I-Frame Test END</p>
+
+</body>
+</html>

@@ -1,0 +1,59 @@
+/* ATTENTION: FIX HEIGHT CALCULATION OF THE IFRAME RESIZER
+              !!!THE TAGGED ELEMENT MUST BE A BLOCK ELEMENT OR IT WILL NEVER RELEASE ITS HEIGHT!!!
+              SO ALT LEAST THE TAGGED <main data-iframe-height="True"> element MUST BE A BLOCK ELEMENT!!!
+*/
+/* ATTENTION: Do not change the <footer> or <header> display css attribute or you may override the display: None of the widget domain template !!! */
+body #wrapwrap main {
+    display: block;
+}
+
+/* ATTENTION: REMOVE THIS MARGIN OR STRANGE SCROLLING WILL HAPPEN */
+body .oe_website_sale {
+    margin-bottom: 0;
+    margin: 0;
+}
+
+/* FOOTER */
+body #wrapwrap footer {
+    /* ATTENTION: The height should not be 100% for any many element or iframeresizer may just expand but never shrink the iframe!
+                  <footer> and <header> is normally not used for the iframeresizer height calculation but for savety reasons we i reset it here
+    */
+    height: auto;
+}
+
+
+/* ------------------- */
+/* BOOTSTRAP MODAL BOX */
+/* ------------------- */
+/* Modal Box Trigger */
+/*.btn-link.information-modal-box-trigger:hover {*/
+/*    color: #b50227;*/
+/*}*/
+
+/* -------------------- */
+/* BOOTSTRAP NAVIGATION */
+/* -------------------- */
+/*.navbar-default .navbar-nav > li > a {*/
+/*    color: #35477a;*/
+/*}*/
+/*.navbar-default .navbar-nav > li > a:hover {*/
+/*    color: #b50227;*/
+/*}*/
+/*.dropdown-menu > li > a {*/
+/*    color: #b50227;*/
+/*}*/
+/*.dropdown-menu > li > a:hover {*/
+/*    color: white;*/
+/*    background-color: #b50227;*/
+/*    -webkit-transition: color 0.3s ease 0s;*/
+/*    -moz-transition: color 0.3s ease 0s;*/
+/*    -o-transition: color 0.3s ease 0s;*/
+/*    -ms-transition: color 0.3s ease 0s;*/
+/*    transition: color 0.3s ease 0s;*/
+/*}*/
+/*.nav-tabs > li.active > a,*/
+/*.nav-tabs > li.active > a:hover {*/
+/*    background-color: #bf0232;*/
+/*}*/
+
+

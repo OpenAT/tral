@@ -21,7 +21,10 @@ Customer configuration for the instance tral
     'depends': [
         'fsonline',
     ],
-    'data': [],
+    'data': [
+        'views/templates.xml',
+        #'views/snippet_options.xml',
+    ],
 }
 
     

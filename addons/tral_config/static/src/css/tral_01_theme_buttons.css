@@ -1,0 +1,25 @@
+/* ----------------- */
+/* BOOTSTRAP BUTTONS */
+/* ----------------- */
+
+/* Remove Button BG Gradient */
+.btn-default, .btn-primary, .btn-success, .btn-info, .btn-warning, .btn-danger {
+    background-image: none;
+    /*background-image: -o-linear-gradient(top, #ffffff 0%, #e0e0e0 100%);*/
+    /*background-image: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#e0e0e0));*/
+    /*background-image: linear-gradient(to bottom, #ffffff 0%, #e0e0e0 100%);*/
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffffffff', GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+}
+
+/* Button Shadow */
+/*.btn-default, .btn-primary, .btn-success, .btn-info, .btn-warning, .btn-danger {*/
+/*    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);*/
+/*    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075);*/
+/*    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075);*/
+/*}*/
+
+/* Button Glyphicon Positon */
+.btn .glyphicon {
+    top: 3px;
+}

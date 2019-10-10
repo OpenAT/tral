@@ -10,7 +10,7 @@ body #wrapwrap main {
 /* ATTENTION: REMOVE THIS MARGIN OR STRANGE SCROLLING WILL HAPPEN */
 body .oe_website_sale {
     margin-bottom: 0;
-    margin: 0;
+    /*margin: 0;*/
 }
 
 /* FOOTER */
@@ -56,4 +56,8 @@ body #wrapwrap footer {
 /*    background-color: #bf0232;*/
 /*}*/
 
+/* BLOGLIST */
 
+.container.bloglist-post h2 {
+    background-color: yellow;
+}

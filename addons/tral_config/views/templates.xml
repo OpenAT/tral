@@ -27,6 +27,7 @@
         <template id="website.theme_tral" name="TRAL"
                   inherit_id="website.theme" active="True" customize_show="True">
             <xpath expr="//link[@id='bootstrap_css']" position="replace">
+                <link rel='stylesheet' href='https://use.typekit.net/skj4dqc.css'/>
                 <link rel='stylesheet' href='/tral_config/static/src/css/tral_bootstrap/css/bootstrap.css' t-ignore="true"/>
                 <link rel='stylesheet' href='/tral_config/static/src/css/tral_bootstrap/css/bootstrap-theme.css' t-ignore="true"/>
                 <link rel='stylesheet' href='/tral_config/static/src/css/tral_01_theme.css' t-ignore="true"/>

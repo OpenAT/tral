@@ -2,6 +2,15 @@
               !!!THE TAGGED ELEMENT MUST BE A BLOCK ELEMENT OR IT WILL NEVER RELEASE ITS HEIGHT!!!
               SO ALT LEAST THE TAGGED <main data-iframe-height="True"> element MUST BE A BLOCK ELEMENT!!!
 */
+/*
+body {
+    font-family: "lft-etica";
+    color: #000000;
+    font-size: 12px;
+    font-weight: 300;
+    font-style: normal;
+}*/
+
 /* ATTENTION: Do not change the <footer> or <header> display css attribute or you may override the display: None of the widget domain template !!! */
 body #wrapwrap main {
     display: block;

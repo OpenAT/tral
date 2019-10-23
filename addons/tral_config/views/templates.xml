@@ -37,6 +37,18 @@
                 <link rel='stylesheet' href='/tral_config/static/src/css/tral_09_glyphicons.css' t-ignore="true"/>
             </xpath>
         </template>
+          <template id="tral_assets_editor" inherit_id="website.assets_editor" name="Tral Editor assets">
+              <xpath expr="//script[last()]" position="after">
+                  <script type="text/javascript" src="/tral_config/static/src/js/tral_ckeditor.js"></script>
+              </xpath>
+            </template>
+
+          <template id="tral_assets_editor" inherit_id="website.assets_editor" name="Tral Editor assets">
+              <xpath expr="." position="inside">
+                  <script type="text/javascript" src="/tral_config/static/src/js/tral_ckeditor.js"></script>
+              </xpath>
+          </template>
+
 
     </data>
 </openerp>

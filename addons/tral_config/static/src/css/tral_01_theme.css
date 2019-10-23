@@ -11,6 +11,33 @@ body {
     font-style: normal;
 }*/
 
+/* Font Tral specific */
+
+/* ------------------- */
+/* DEFAULT ODOO COLORS */
+/* ------------------- */
+body .oe_grey {
+    background-color: #eee !important;
+}
+body .oe_grey_light {
+    background-color: #eeeeeec7 !important;
+}
+body .oe_red {
+    background-color: rgb(206,192,191) !important;
+    color: black;
+}
+body .oe_white {
+    background-color: #ffffff !important;
+}
+body .oe_green {
+    background-color: rgb(194,222,184) !important;
+    color: black;
+}
+body .oe_blue {
+    background-color: rgb(254,237,3) !important;
+    color: black;
+}
+
 /* ATTENTION: Do not change the <footer> or <header> display css attribute or you may override the display: None of the widget domain template !!! */
 body #wrapwrap main {
     display: block;

@@ -9,7 +9,7 @@ body #product_detail .amount_title {
 
 /* Reset the price donate input */
 body .price_donate .form-control {
-    font-size: 24px;
+    font-size: 4vw;
     padding: inherit;
     color: inherit;
     text-align: inherit;
@@ -31,7 +31,20 @@ body #wsd-checkout-box {
     margin-top: 12px;
 }
 
-
+/* SPENDENBOX */
+.price_donate .input-group-addon {
+    min-width: auto !important;
+}
+body .price_donate .form-control {
+    text-align: center;
+    font-size: calc(1em + 1vw);
+}
+h4.payment_interval_ids.payment_interval_lines_ids.text-left {
+    text-align: center;
+}
+.btn.btn-lg.btn-default.price_donate_suggested {
+    background-color: #f8f8f8;
+}
 /* ---- */
 /* CART */
 /* ---- */

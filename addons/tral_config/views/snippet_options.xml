@@ -1,0 +1,29 @@
+<openerp>
+<data>
+    <template id="website_tral_snippet_options" inherit_id="website.snippet_options">
+            <!-- Replace Background Colors and Images -->
+        <xpath expr="//div[@data-snippet-option-id='background']/li" position="replace">
+            <li class="dropdown-submenu" data-required="true">
+                <a tabindex="-1" href="#">Background</a>
+                <ul class="dropdown-menu">
+                    <li class="dropdown-submenu">
+                        <a tabindex="-2" href="#">Uniform Color</a>
+                        <ul class="dropdown-menu">
+                            <li data-value='oe_grey'><a>Tral Grau</a></li>
+                            <li data-value='oe_grey_light'><a>Tral Grau Hell</a></li>
+                            <li data-value='oe_red'><a>Tral Baige</a></li>
+                            <li data-value='oe_white'><a>Weiss</a></li>
+                            <li data-value='oe_green'><a>Grün</a></li>
+                            <li data-value='oe_blue'><a>Gelb</a></li>
+                        </ul>
+                    </li>
+                <li data-value=""><a>None</a></li>
+                <li><a style="background: none; padding: 5px; border-top: 1px solid #ddd;"></a></li>
+                <li class="oe_custom_bg" data-value="oe_img_bg"><a><b>Choose an image...</b></a></li>
+                </ul>
+            </li>
+        </xpath>
+    </template>
+
+</data>
+</openerp>

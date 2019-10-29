@@ -111,9 +111,9 @@ div.checkout_steps_buttons {
 /*}*/
 
 /*!* BIC ausblenden TODO: Must be done by xml! *!*/
-/*#aq4 > div:nth-child(6) {*/
-/*    display: none;*/
-/*}*/
+#aq2 > div:nth-child(6) {
+    display: none;
+}
 
 /*!* E-Mail billing_address email ausblenden TODO: maybe not needed if renamed to "Ihre Angaben" *!*/
 /*.wsd_payment_page_content .payment_billing_address .billing_address .email {*/

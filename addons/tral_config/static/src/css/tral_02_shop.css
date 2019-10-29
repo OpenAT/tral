@@ -76,7 +76,20 @@ div.checkout_steps_buttons {
 /*#wsd_checkout_form label.control-label.mandatory.text-danger:after {*/
 /*    content: " *";*/
 /*}*/
+#wsd_checkout_form .form-control-feedback {
+    top: 23px;
+}
+/* PAYMENT METHODS
+ */
+#payment_method > div > ul > li {
+    font-size: 14px;
+}
 
+#payment_method > div > ul > li:first-child {
+    text-align: center;
+    width: 100%;
+    font-size: 24px;
+}
 
 /* ONE PAGE CHECKOUT */
 /* ----------------- */

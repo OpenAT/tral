@@ -26,6 +26,9 @@ body[data-rootcatid="1"] .oe_website_sale .products_pager .input-group {
 body[data-rootcatid="1"] #products_grid_before.col-md-3 {
     width: 100%   
 }
+body[data-rootcatid="1"] #products_grid.col-md-9 {
+    width: 100%;
+}
 body[data-rootcatid="1"] #products_grid .oe_product {
     background-color: #feed01;
     padding: 3px;

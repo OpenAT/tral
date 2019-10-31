@@ -49,7 +49,7 @@ body[data-rootcatid="1"]  #products_grid > table > tbody > tr > td > div > form 
     /*transform: rotate(-25deg);*/
     font-size: 28px;
     font-family: 'Damion', cursive;
-    /*margin-bottom: 28%;*/
+    margin-bottom: 25px;
 }
 body[data-rootcatid="1"] .oe_product.oe_grid .oe_subdescription {
     margin-bottom: 13%;
@@ -70,6 +70,7 @@ body[data-rootcatid="1"] .btn.btn-default.btn-xs.fa.fa-shopping-cart.a-submit {
     width: 100%;
     font-size: 18px;
     border: none;
+    box-shadow: none;
 }
 body[data-rootcatid="1"] .oe_product .product_price a.a-submit {
     margin-left: initial;

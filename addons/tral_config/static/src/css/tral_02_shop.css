@@ -79,17 +79,6 @@ div.checkout_steps_buttons {
 #wsd_checkout_form .form-control-feedback {
     top: 23px;
 }
-/* PAYMENT METHODS
- */
-#payment_method > div > ul > li {
-    font-size: 14px;
-}
-
-#payment_method > div > ul > li:first-child {
-    text-align: center;
-    width: 100%;
-    font-size: 24px;
-}
 
 /* ONE PAGE CHECKOUT */
 /* ----------------- */
@@ -125,34 +114,47 @@ div.checkout_steps_buttons {
 /*    display: none;*/
 /*}*/
 
+/* PAYMENT METHODS
+ */
+#payment_method > div > ul > li {
+    font-size: 14px;
+}
+
+#payment_method > div > ul > li:first-child {
+    text-align: left;
+    width: 100%;
+    font-size: 24px;
+}
+
 /* Payment Tabs */
 /* ------------ */
-/*#payment_method .nav > li > a {*/
-/*    padding: 5px 5px;*/
-/*}*/
-/*#payment_method .nav.nav-tabs li.active a {*/
-/*    background-color: #E3E3E3;*/
-/*}*/
-/*#payment_method .nav.nav-tabs li.active a:hover {*/
-/*    background-color: #E3E3E3;*/
-/*}*/
-/*#payment_method .nav > li {*/
-/*    !*min-width: 100px;*!*/
-/*}*/
-/*#payment_method .nav > li > a {*/
-/*    padding: 5px 5px;*/
-/*    text-align: center;*/
-/*}*/
-/*#payment_method .nav > li > a img {*/
-/*    margin: 0 auto;*/
-/*    width: 60px;*/
-/*    height: 43px;*/
-/*}*/
-/*#payment_method .nav-tabs > li.active > a,*/
-/*#payment_method .nav-tabs > li.active > a:hover,*/
-/*#payment_method .nav-tabs > li.active > a:focus {*/
-/*    color: #3d649e;*/
-/*}*/
+
+#payment_method .nav > li > a {
+    padding: 5px 5px;
+}
+#payment_method .nav.nav-tabs li.active a {
+    background-color: #E3E3E3;
+}
+#payment_method .nav.nav-tabs li.active a:hover {
+    background-color: #E3E3E3;
+}
+#payment_method .nav > li {
+    /*min-width: 100px;*/
+}
+#payment_method .nav > li > a {
+    padding: 5px 5px;
+    text-align: left;
+}
+#payment_method .nav > li > a img {
+    margin: 0 auto;
+    width: 60px;
+    height: 43px;
+}
+#payment_method .nav-tabs > li.active > a,
+#payment_method .nav-tabs > li.active > a:hover,
+#payment_method .nav-tabs > li.active > a:focus {
+    color: black;
+}
 
 
 /* ---------------- */

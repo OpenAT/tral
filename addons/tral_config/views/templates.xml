@@ -35,6 +35,7 @@
                 <link rel='stylesheet' href='/tral_config/static/src/css/tral_02_shop.css' t-ignore="true"/>
                 <link rel='stylesheet' href='/tral_config/static/src/css/tral_02_shop_categories.css' t-ignore="true"/>
                 <link rel='stylesheet' href='/tral_config/static/src/css/tral_09_glyphicons.css' t-ignore="true"/>
+                <link href="https://fonts.googleapis.com/css?family=Damion&amp;display=swap" rel="stylesheet"/>
             </xpath>
         </template>
           <template id="tral_assets_editor" inherit_id="website.assets_editor" name="Tral Editor assets">

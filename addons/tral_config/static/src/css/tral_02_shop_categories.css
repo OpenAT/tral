@@ -36,6 +36,9 @@ body[data-rootcatid="1"] .oe_product.oe_grid  {
     border: 2px dashed gray;
     border-radius: 50%;
 }
+body[data-rootcatid="1"] #wrap > div.container.oe_website_sale .products_pager {
+    display: none;
+}
 body[data-rootcatid="1"] .oe_product .oe_product_cart {
     border: 4px solid white;
     background-color: #feed01;

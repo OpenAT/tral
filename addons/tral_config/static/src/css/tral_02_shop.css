@@ -37,7 +37,7 @@ body #wsd-checkout-box {
 }
 body .price_donate .form-control {
     text-align: center;
-    font-size: calc(1em + 1vw);
+    font-size: 16px;
 }
 h4.payment_interval_ids.payment_interval_lines_ids.text-left {
     text-align: center;

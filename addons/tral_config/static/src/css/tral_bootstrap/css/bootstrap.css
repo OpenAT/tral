@@ -1587,14 +1587,9 @@ pre code {
   margin-right: auto;
   margin-left: auto;
 }
-@media (min-width: 672px) {
+@media (min-width: 722px) {
   .container {
-    width: 692px;
-  }
-}
-@media (min-width: 662px) {
-  .container {
-    width: 692px;
+    width: 722px;
   }
 }
 @media (min-width: 1200px) {

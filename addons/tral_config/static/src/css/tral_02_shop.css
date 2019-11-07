@@ -165,3 +165,6 @@ div.checkout_steps_buttons {
 /*[data-name='frst-submit-button'] {*/
 /*    max-width: 100%;*/
 /*}*/
+.price_donate_suggested_currency {
+    display: none !important;
+}

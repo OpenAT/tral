@@ -231,3 +231,6 @@ label {
 .form-control {
   color: #000000;
 }
+.modal {
+    background: rgba(255, 255, 255, 0.5);
+}

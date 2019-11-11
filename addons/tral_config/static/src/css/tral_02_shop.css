@@ -175,3 +175,11 @@ div.checkout_steps_buttons {
 .price_donate_suggested_currency {
     display: none !important;
 }
+
+/* ---------------- */
+/* TRALALOBE CUSTOM */
+/* ---------------- */
+
+.checkout_title {
+    display: none;
+}

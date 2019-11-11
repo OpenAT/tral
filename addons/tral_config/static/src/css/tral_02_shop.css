@@ -186,3 +186,6 @@ div.checkout_steps_buttons {
 .oe_cart.small_cart {
     font-family: "lft-etica", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
 }
+th {
+    font-weight: 300;
+}

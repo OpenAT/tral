@@ -3949,7 +3949,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .nav {
   padding-left: 0;
-  margin-bottom: 0;
+  margin-bottom: 7px;
   list-style: none;
 }
 .nav > li {

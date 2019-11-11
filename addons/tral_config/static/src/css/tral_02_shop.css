@@ -80,7 +80,11 @@ div.checkout_steps_buttons {
 /*    content: " *";*/
 /*}*/
 #wsd_checkout_form .form-control-feedback {
-    top: 23px;
+    top: 23px !important;
+}
+/* Hide Login Button */
+#wsd_checkout_steps_nav > div > div > a.btn.btn-primary.navbar-btn {
+  display: none;
 }
 
 /* ONE PAGE CHECKOUT */

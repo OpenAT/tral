@@ -2511,6 +2511,7 @@ label {
   display: inline-block;
   max-width: 100%;
   margin-bottom: 5px;
+  font-size: 13px;
 }
 input[type="search"] {
   -webkit-box-sizing: border-box;

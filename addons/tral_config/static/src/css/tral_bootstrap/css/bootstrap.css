@@ -1186,7 +1186,7 @@ h6,
 .h6 {
   font-family: inherit;
   font-weight: 200;
-  line-height: 1.2;
+  line-height: 1.1;
   color: inherit;
 }
 h1 small,
@@ -1366,10 +1366,11 @@ a.text-warning:focus {
   color: #66512c;
 }
 .text-danger {
-  background: #C1DEBB;
+  color: #a94442;
 }
 a.text-danger:hover,
 a.text-danger:focus {
+  color: #843534;
 }
 .bg-primary {
   color: #fff;
@@ -1581,14 +1582,14 @@ pre code {
   overflow-y: scroll;
 }
 .container {
-  padding-right: 0;
-  padding-left: 0;
+  padding-right: 15px;
+  padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
 }
-@media (min-width: 722px) {
+@media (min-width: 662px) {
   .container {
-    width: 722px;
+    width: 692px;
   }
 }
 @media (min-width: 1200px) {
@@ -2511,7 +2512,7 @@ label {
   display: inline-block;
   max-width: 100%;
   margin-bottom: 5px;
-  font-size: 13px;
+  font-weight: 700;
 }
 input[type="search"] {
   -webkit-box-sizing: border-box;
@@ -2565,7 +2566,7 @@ output {
   padding: 6px 12px;
   font-size: 12px;
   line-height: 1.42857143;
-  color: #000000;
+  color: #cec0bf;
   background-color: #ffffff;
   background-image: none;
   border: 1px solid #cccccc;
@@ -3950,7 +3951,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .nav {
   padding-left: 0;
-  margin-bottom: 7px;
+  margin-bottom: 0;
   list-style: none;
 }
 .nav > li {
@@ -4143,7 +4144,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar {
   position: relative;
   min-height: 50px;
-  margin-bottom: 0;
+  margin-bottom: 17px;
   border: 1px solid transparent;
 }
 @media (min-width: 672px) {
@@ -4463,7 +4464,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
   .navbar-right {
     float: right !important;
-    margin-right: 0;
+    margin-right: -15px;
   }
   .navbar-right ~ .navbar-right {
     margin-right: 0;

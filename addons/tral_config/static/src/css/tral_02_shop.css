@@ -65,6 +65,8 @@ div.checkout_steps_buttons {
     width: 100%;
     text-align: right;
     margin-top: 0;
+}
+.checkout_steps_navigation {
     display: none;
 }
 

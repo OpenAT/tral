@@ -64,7 +64,8 @@ ul.checkout_steps_indicator {
 div.checkout_steps_buttons {
     width: 100%;
     text-align: right;
-    margin-top: 1em;
+    margin-top: 0;
+    display: none;
 }
 
 /* -------- */

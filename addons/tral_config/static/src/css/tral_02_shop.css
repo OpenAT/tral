@@ -189,6 +189,9 @@ div.checkout_steps_buttons {
 th {
     font-weight: 300;
 }
+add_to_cart {
+    margin-top: 0;
+}
 
 /* ---------------- */
 /* TRALALOBE BOOTSTRAP CUSTOM */

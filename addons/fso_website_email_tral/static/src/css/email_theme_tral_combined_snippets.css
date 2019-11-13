@@ -1,0 +1,155 @@
+/* HEADER REWORKED */
+img.emailThemeHeaderLogo {
+    width: 350px;
+    height: auto;
+}
+
+#combinedfooter img.flexibleImage.absetzbar {
+    width: 150px;
+    height: auto;
+}
+
+#combinedheader.snippet_block_text_twocol table.flexibleContainerLeft {
+    width: 350px;
+}
+#combinedheader.snippet_block_text_twocol table.flexibleContainerRight {
+    width: 150px;
+}
+#combinedheadersnippetWebVersion.snippet_block_text_twocol .flexibleContainerCell {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#combinedheader.snippet_block_text_image_left .flexibleContainerLeft .imageContent {
+    padding-top: 0px;
+    padding-left: 0px;
+}
+#combinedheader.snippet_block_text_image_left .flexibleContainerLeft .flexibleImage,
+#combinedheader.snippet_block_text_image_left .flexibleContainerLeft .flexibleImage img {
+    width: 115px;
+}
+#combinedheader.snippet_block_text_image_left .flexibleContainerCell {
+    padding: 0px;
+}
+#combinedheader .flexibleContainerCell {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+#combinedheader .flexibleContainerCell {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+
+#combinedheadersnippet.snippet_block.tral_sb_bg_tralgreen,
+#combinedheadersnippet.snippet_block.tral_sb_bg_tralgreen .contenTable,
+#combinedfooter.tral_sb_bg_tralgreen,
+#combinedfooter.tral_sb_bg_tralgreen .contenTable {
+    background-color: #C1DEBB;
+}
+#combinedfooter.tral_sb_bg_tralgreen .contenTable a,
+#combinedfooter.tral_sb_bg_tralgreen .contenTable p {
+    color: #000000;
+}
+
+#combinedheader.snippet_block.tral_sb_fg_tralgreen,
+#combinedheader.snippet_block.tral_sb_fg_tralgreen .contenTable,
+#combinedfooter.tral_sb_fg_tralgreen,
+#combinedfooter.tral_sb_fg_tralgreen .contenTable {
+    background-color: #C1DEBB;
+}
+#combinedfooter.tral_sb_fg_tralgreen .contenTable a,
+#combinedfooter.tral_sb_fg_tralgreen .contenTable p {
+    color: #000000;
+}
+
+#combinedheader.snippet_block.tral_sb_bg_white,
+#combinedheader.snippet_block.tral_sb_bg_white .contenTable
+#combinedfooter.tral_sb_bg_white,
+#combinedfooter.tral_sb_bg_white .contenTable {
+    background-color: #ffffff;
+    color: #000000;
+}
+#combinedfooter.tral_sb_bg_white .contenTable a,
+#combinedfooter.tral_sb_bg_white .contenTable p {
+    color: #000000;
+}
+#combinedheader.snippet_block.tral_sb_fg_white,
+#combinedheader.snippet_block.tral_sb_fg_white .contenTable,
+#combinedfooter.tral_sb_fg_white,
+#combinedfooter.tral_sb_fg_white .contenTable {
+    background-color: #ffffff;
+    color: #000000;
+}
+#combinedfooter.tral_sb_fg_white .contenTable a,
+#combinedfooter.tral_sb_fg_white .contenTable p {
+    color: #000000;
+}
+
+#combinedheader.snippet_block.tral_sb_bg_blue,
+#combinedheader.snippet_block.tral_sb_bg_blue .contenTable
+#combinedfooter.tral_sb_bg_blue,
+#combinedfooter.tral_sb_bg_blue .contenTable {
+    background-color: #0050a0;
+}
+#combinedfooter.tral_sb_bg_blue .contenTable a,
+#combinedfooter.tral_sb_bg_blue .contenTable p {
+    color: #ffffff;
+}
+#combinedheader.snippet_block.tral_sb_fg_blue,
+#combinedheader.snippet_block.tral_sb_fg_blue .contenTable,
+#combinedfooter.tral_sb_fg_blue,
+#combinedfooter.tral_sb_fg_blue .contenTable {
+    background-color: #0050a0;
+}
+
+#combinedfooter.tral_sb_fg_blue .contenTable a,
+#combinedfooter.tral_sb_fg_blue .contenTable p {
+    color: #ffffff;
+}
+
+#combinedheader.snippet_block.tral_sb_bg_background,
+#combinedheader.snippet_block.tral_sb_bg_background .contenTable
+#combinedfooter.tral_sb_bg_background,
+#combinedfooter.tral_sb_bg_background .contenTable {
+    background-color: #e5e5e2;
+}
+#combinedfooter.tral_sb_bg_background .contenTable a,
+#combinedfooter.tral_sb_bg_background .contenTable p {
+    color: #000000;
+}
+
+#combinedheader.snippet_block.tral_sb_fg_background,
+#combinedheader.snippet_block.tral_sb_fg_background .contenTable
+#combinedfooter.tral_sb_fg_background,
+#combinedfooter.tral_sb_fg_background .contenTable {
+    background-color: #ffffff;
+}
+
+#combinedfooter.tral_sb_fg_background .contenTable a,
+#combinedfooter.tral_sb_fg_background .contenTable p {
+    color: #000000;
+}
+
+#combinedheadersnippetWebVersion.snippet_block_text_intro .flexibleContainerCell {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+#combinedheadersnippetWebVersion.snippet_block_text_twocol table.flexibleContainerLeft,
+#combinedheadersnippetWebVersion.snippet_block_text_twocol table.flexibleContainerRight {
+    background-color: #ffffff;
+}
+/* Special reset for Header Full width does not work
+
+#combinedheader .flexibleContainer {
+    width: 100%;
+}
+*/
+/* special styles footer*/
+
+#combinedfooter .snippet_block_text_image_right .flexibleContainerCell {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}

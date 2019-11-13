@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+<data>
+    
+    <!-- THEME 'tral' ASSETS -->
+    <!-- ATTENTION: At least one local css <link> or inline <style> tag  (even if just empty) MUST exist in an assets template -->
+    <template id="email_theme_tral_assets">
+        <link href='/fso_website_email_tral/static/src/css/email_theme_tral.css' rel='stylesheet' type='text/css' t-ignore="true"/>
+        <link href='/fso_website_email_tral/static/src/css/email_theme_tral_snippets.css' rel='stylesheet' type='text/css' t-ignore="true"/>
+        <link href='/fso_website_email_tral/static/src/css/email_theme_tral_snippets.css' rel='stylesheet' type='text/css' t-ignore="true"/>
+        <!-- NEW: Bullet Proof Buttons -->
+        <link href='/fso_website_email_tral/static/src/css/email_theme_tral_snippets_bpbuttons.css' rel='stylesheet' type='text/css' t-ignore="true"/>
+        <link href='/fso_website_email_tral/static/src/css/email_theme_tral_snippets_bpbuttons_responsive.css' rel='stylesheet' type='text/css' t-ignore="true"/>
+        
+        <link href='/fso_website_email_tral/static/src/css/email_theme_tral_responsive.css' rel='stylesheet' type='text/css' t-ignore="true"/>
+        <link href='/fso_website_email_tral/static/src/css/email_theme_tral_snippets_buttons_responsive.css' rel='stylesheet' type='text/css' t-ignore="true"/>
+        <link href='/fso_website_email_tral/static/src/css/email_theme_tral_combined_snippets.css' rel='stylesheet' type='text/css' t-ignore="true"/>
+    </template>
+    
+    <!-- THEME 'tral' ASSETS EDITMODE -->
+    <template id="email_theme_tral_assets_editmode">
+        
+        <!-- Snippets template URL -->
+        <script type="text/javascript">
+            //<![CDATA[
+                (function () {
+                    'use strict';
+                    var website = openerp.website;
+                    website.if_dom_contains('#email_designer', function () {
+                        website.snippet.BuildingBlock.include({
+                            _get_snippet_url: function () {
+                                return '/fso/email/snippets?snippets_template=fso_website_email_tral.email_theme_tral_snippets';
+                            }
+                        });
+                    });
+                })();
+            //]]>
+        </script>
+        
+        <!-- Override CKEditor Settings -->
+        <script src='/fso_website_email_tral/static/src/js/email_theme_tral_ckeditor.js' type='text/javascript' t-ignore="true"/>
+        
+        <!-- CSS for edit mode only -->
+        <link href='/fso_website_email_tral/static/src/css/tral_editmode_only.css' rel='stylesheet' type='text/css' t-ignore="true"/>
+    </template>
+
+    <!-- tral HEADER CONTENT -->
+    <template id="email_theme_tral_header" name="tral Header">
+        <div id="tral_header"></div>
+    </template>
+    
+    
+    <!-- tral Footer CONTENT -->
+    <template id="email_theme_tral_footer" name="tral Footer">
+        <div id="tral_footer"></div>
+    </template>
+    
+
+    <!-- tral THEME -->
+    <template id="email_theme_tral"
+              name="tral Theme">&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Strict//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd&quot;&gt;
+        <html t-att-lang="lang and lang.replace('_', '-')"
+              t-att-data-website-id="website and website.id or None"
+              t-att-data-editable="'1' if editable else None"
+              t-att-data-translatable="'1' if translatable else None"
+              t-att-data-view-xmlid="xmlid if editable else None"
+              t-att-data-main-object="repr(main_object) if editable else None"
+              t-att-data-oe-company-name="res_company.name if editable else None"
+              class="ckediting_disabled">
+
+            <!-- TEMPLATE SETTINGS -->
+            <!-- ================= -->
+            <t t-set="load_theme_framework" t-value="True"/>
+            <!-- ================= -->
+
+            <head>
+                <!-- COMMON CSS-ASSETS AND <head> TAGS -->
+                <t t-call="fso_website_email.theme_head_common"/>
+                
+                <!-- THEME tral CSS-ASSETS IN EDIT MODE ONLY -->
+                <t t-if="email_editor_mode">
+                    <t t-call-assets="fso_website_email_tral.email_theme_tral_assets_editmode" t-js="false"/>
+                </t>
+                
+                <!-- THEME tral CSS-ASSETS -->
+                <t t-call-assets="fso_website_email_tral.email_theme_tral_assets" t-js="false"/>
+                
+                <meta name="viewport" content="width=device-width"/>
+            </head>
+
+
+            <body class="ckediting_disabled" contenteditable="false">
+                <!-- WRAP COMMON ASSETS AND BODY TAGS AROUND THEME 'tral' -->
+                <t t-call="fso_website_email.theme_body_common">
+
+                    <!-- ============ -->
+                    <!-- THEME 'tral' -->
+                    <!-- ============ -->
+                    <center>
+                        <table id="bodyTable" class="ckediting_disabled" border="0" cellpadding="0" cellspacing="0" height="100%" width="100%">
+
+                            <!-- HEADER -->
+                            <!--<tr>-->
+                                <!--<td id='open_in_browser' class="headerCell ckediting_disabled" align="center">-->
+                                    <!--Wenn diese Nachricht nicht richtig angezeigt wird, verwenden Sie bitte die-->
+                                    <!--<![CDATA[-->
+                                    <!--<a id="view-email-in-browser"-->
+                                       <!--href="%open_browser%" target="_blank">-->
+                                         <!--Online-Version-->
+                                    <!--</a>-->
+                                    <!--]]>-->
+                                <!--</td>-->
+                            <!--</tr>-->
+                            
+                            <!-- tral HEADER -->
+                            <tr>
+                                <td id='tral_header' class="headerCell ckediting_disabled" align="center">
+                                    
+                                    <table id="tral_header_body" class="ckediting_disabled" border="0" cellpadding="0" cellspacing="0">
+                                        <tr>
+                                            <td class="ckediting_disabled" align="center" valign="top">
+
+                                                <!-- CONTENT ('html_body' field of email.template) -->
+                                                <t t-call="fso_website_email_tral.email_theme_tral_header"/>
+
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    
+                                </td>
+                            </tr>
+
+                            <!-- MAIN -->
+                            <tr>
+                                <!-- bodyCell width: 100% padding: 0 left and right  -->
+                                <td id="bodyCell" class="ckediting_disabled" align="center" valign="top">
+                                    
+                                    <!-- emailBody width: 600 px padding: 0  margin: 0 -->
+                                    <table id="emailBody" class="ckediting_disabled" border="0" cellpadding="0" cellspacing="0">
+                                        <tr>
+                                            <td class="ckediting_disabled" align="center" valign="top">
+
+                                                <!-- CONTENT ('html_body' field of email.template) -->
+                                                <t t-call="fso_website_email.content"/>
+
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    
+                                </td>
+                            </tr>
+
+
+
+                            <!-- tral Footer CONTENT -->
+                            <template id="email_theme_tral_footer" name="tral Footer">
+                                <div class="bird_footer_info dadi_sb_bg_full ckediting_disabled">
+                                    <table class="centeringTable" cellpadding="0" cellspacing="0">
+                                        <tr>
+                                            <td align="center" valign="top">
+                                                <table class="flexibleContainer" border="0" cellpadding="0" cellspacing="0">
+                                                    <tr>
+                                                        <td class="flexibleContainerCell" align="center" valign="top">
+                                                            <table class="nestedContainer" border="0" cellpadding="0" cellspacing="0">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td class="nestedContainerCell" align="center" valign="top">
+                                                                            <table class="contentTable" border="0" cellpadding="0" cellspacing="0">
+                                                                                <tr>
+                                                                                    <td class="textContent ckediting_disabled" align="center" valign="top" contenteditable="false">
+
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </table>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+
+                            </template>
+
+                            <!-- FOOTER -->
+                            <tr>
+                                <td id='tral_footer' align="center" class="footerCell ckediting_disabled">
+                                    
+                                    <table id="tral_footer_body" class="ckediting_disabled" border="0" cellpadding="0" cellspacing="0">
+                                        <tr>
+                                            <td class="ckediting_disabled" align="center" valign="top">
+
+                                                <t t-call="fso_website_email_tral.email_theme_tral_footer"/>
+
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    
+                                </td>
+                            </tr>
+
+                        </table>
+                    </center>
+
+                </t>
+                
+                <!-- THEME tral JAVA SCRIPT ASSETS IN EDIT MODE ONLY -->
+                <t t-if="email_editor_mode">
+                    <t t-call-assets="fso_website_email_tral.email_theme_tral_assets_editmode" t-css="false"/>
+                </t>
+                
+                <!-- THEME tral JAVA SCRIPT ASSETS -->
+                <t t-call-assets="fso_website_email_tral.email_theme_tral_assets" t-css="false"/>
+            </body>
+
+        </html>
+    </template>
+
+    <!-- Enable the boolean field 'fso_email_template' for this theme to show it at the 'fso/email/select' page -->
+    <record id="fso_website_email_tral.email_theme_tral" model="ir.ui.view">
+        <field name="fso_email_template" eval="True"/>
+    </record>
+
+</data>
+</openerp>

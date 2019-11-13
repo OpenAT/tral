@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+<data>
+    
+    <!-- THEME 'tral' SNIPPETS -->
+    <!-- HINT: We simply use the default snippets from 'fso_website_email.theme_framework_snippets' -->
+    <!-- HINT: These snippets will be loaded in the template 'email_theme_tral_assets_editmode' by java script -->
+    <template id="email_theme_tral_snippets">
+        <!-- Simply Load theme_default_snippets :) -->
+        <t t-call="fso_website_email.theme_framework_snippets"/>
+    </template>
+    
+    
+    <!-- EXTEND fso_website_email.theme_framework_snippets for the 'tral' theme -->
+    <template id="email_theme_tral_snippets_overrides" inherit_id="fso_website_email.theme_framework_snippets" name="Email Theme tral Snippet overrides">
+        
+        <!-- ==================== -->
+        <!--  tral EXTRA SNIPPETS -->
+        <!-- ==================== -->
+        <xpath expr="//div[@id='snippet_email_special']" position="inside">
+            
+            <!-- .tral_bin Snippet -->
+            <!-- ================= -->
+            <div>
+                <!-- Icon and name -->
+                <div class="oe_snippet_thumbnail">
+                    <img class="oe_snippet_thumbnail_img"
+                         src="/fso_website_email_tral/static/src/icons/tral_bin.png"/>
+                    <span class="oe_snippet_thumbnail_title">Container</span>
+                </div>
+                <!-- SNIPPET BLOCK -->
+                <div class="oe_snippet_body ckediting_enabled tral_bin" contenteditable="true">
+                </div>
+            </div>
+            
+        </xpath>
+
+        <!-- =========================== -->
+        <!-- SNIPPET TARGETS AND OPTIONS -->
+        <!-- =========================== -->
+        
+        <!-- .tral_bin Targets -->
+        <xpath expr="//div[@id='snippet_options']" position="inside">
+            <div data-snippet-option-id='tral_bin_target'
+                 data-selector=".tral_bin"
+                 data-selector-siblings="[data-oe-field='body_html'] > div"
+                 data-selector-children="[data-oe-field='body_html']">
+            </div>
+            <div data-snippet-option-id='tral_bin_inside'
+                 data-selector=".snippet_block"
+                 data-selector-siblings=".tral_bin > div"
+                 data-selector-children=".tral_bin">
+            </div>
+        </xpath>
+
+        <xpath expr="//div[@data-snippet-option-id='dadi_sb_bg_width']" position="replace">
+        </xpath>
+
+        <xpath expr="//div[@data-snippet-option-id='dadi_sb_fg_width']" position="replace">
+        </xpath>
+
+
+        <!-- Beispiel für eine neu Option Group mit entfernen und eben NEU ANLEGEN -->
+        <!-- Variante 2 Entfernen des Originalen Colors -->
+        <xpath expr="//div[@data-snippet-option-id='dadi_sb_fg_color']" position="replace">
+        </xpath>
+        <!-- OPTION_GROUP: tral_sb_fg_color -->
+        <xpath expr="//div[@data-snippet-option-id='dadi_sb_spacer_style']" position="after">
+            <div data-snippet-option-id='tral_sb_fg_color'
+                 data-selector=".snippet_block_text_intro,
+                                .snippet_block_text_image_left,
+                                .snippet_block_text_image_right,
+                                .snippet_block_text_twocol">
+                <!-- Snippet options menu -->
+                <li class="dropdown-submenu" data-required="true">
+                    <a tabindex="-1" href="#">tral ForegroundStyle</a>
+                    <ul class="dropdown-menu">
+                        <li data-value=''><a>None</a></li>
+                        <li data-value='tral_sb_fg_blue'><a>Blau</a></li>
+                        <li data-value='tral_sb_fg_white'><a>White</a></li>
+                        <li data-value='tral_sb_fg_tralgreen'><a>tral Grün</a></li>
+                        <li data-value='tral_sb_fg_background'><a>Background</a></li>
+                    </ul>
+                </li>
+            </div>
+        </xpath>
+
+        <!-- tral Background styles -->
+        <xpath expr="//div[@data-snippet-option-id='dadi_sb_bg_color']//ul" position="replace">
+            <ul class="dropdown-menu">
+                <li data-value='tral_sb_bg_blue'><a>Blau</a></li>
+                <li data-value='tral_sb_bg_white'><a>White</a></li>
+                <li data-value='tral_sb_bg_tralgreen'><a>tral Grün</a></li>
+                <li data-value='tral_sb_bg_background'><a>Background</a></li>
+            </ul>
+        </xpath>
+
+        <xpath expr="//div[@data-snippet-option-id='drop_in_button_width']" position="after">
+            <div data-snippet-option-id='tral_snippet_block_img_padding_top'
+                 data-selector=".flexibleContainer33left img.flexibleImage,
+                                .flexibleContainer33middle img.flexibleImage,
+                                .flexibleContainer33right img.flexibleImage">
+                <!-- Snippet options menu -->
+                <li class="dropdown-submenu" data-required="true">
+                    <a tabindex="-1" href="#">Vertical img Padding</a>
+                    <ul class="dropdown-menu">
+                        <li data-value=''><a>Normal</a></li>
+                        <li data-value='tral_snippet_block_img_padding_top_none'><a>Remove Padding</a></li>
+                        <li data-value='tral_snippet_block_img_padding_top_10'><a>10px</a></li>
+                        <li data-value='tral_snippet_block_img_padding_top_20'><a>20px</a></li>
+                        <li data-value='tral_snippet_block_img_padding_top_30'><a>30px</a></li>
+                        <li data-value='tral_snippet_block_img_padding_top_40'><a>40px</a></li>
+                        <li data-value='tral_snippet_block_img_padding_top_50'><a>50px</a></li>
+                        <li data-value='tral_snippet_block_img_padding_top_60'><a>60px</a></li>
+                    </ul>
+                </li>
+            </div>
+        </xpath>
+
+<!-- default Options deaktiviert weil nicht benötigt belassen falls angefragt wird  -->
+<!--        &lt;!&ndash; .drop_in_button Extra Styles &ndash;&gt;
+        <xpath expr="//li[@data-value='dadi_di_button_default']" position="after">
+            <li data-value='dadi_di_button_red'><a>Red</a></li>
+            &lt;!&ndash; <li data-value='dadi_di_button_blue'><a>Blue</a></li>&ndash;&gt;
+&lt;!&ndash;            <li data-value='tral_di_button_green'><a>Green</a></li>&ndash;&gt;
+        </xpath>-->
+
+<!--        <xpath expr="//div[@data-snippet-option-id='drop_in_button_width']" position="after">
+            <div data-snippet-option-id='tral_snippet_block_padding'
+                 data-selector=".snippet_block">
+                &lt;!&ndash; Snippet options menu &ndash;&gt;
+                <li class="dropdown-submenu" data-required="true">
+                    <a tabindex="-1" href="#">Vertical Padding</a>
+                    <ul class="dropdown-menu">
+                        <li data-value=''><a>Normal</a></li>
+                        <li data-value='tral_snippet_block_padding_none'><a>Remove Padding</a></li>
+                        <li data-value='tral_snippet_block_padding_lower'><a>Lower</a></li>
+                        <li data-value='tral_snippet_block_padding_smallbox'><a>Small Box</a></li>
+                        <li data-value='tral_snippet_block_padding_largebox'><a>Large Box</a></li>
+                    </ul>
+                </li>
+            </div>
+        </xpath>-->
+
+<!--        &lt;!&ndash; .drop_in_button Extra Options &ndash;&gt;
+        <xpath expr="//div[@data-snippet-option-id='drop_in_button_width']" position="after">
+            &lt;!&ndash; OPTION_GROUP: drop_in_button_tral_width &ndash;&gt;
+            <div data-snippet-option-id='drop_in_button_tral_width'
+                 data-selector=".drop_in_button">
+                &lt;!&ndash; drop_in options menu &ndash;&gt;
+                <li class="dropdown-submenu" data-required="true">
+                    <a tabindex="-1" href="#">Width</a>
+                    <ul class="dropdown-menu">
+                        <li data-value=''><a>Normal</a></li>
+                        <li data-value='tral_di_button_width_full'><a>Full</a></li>
+                    </ul>
+                </li>
+            </div>
+        </xpath>-->
+
+        <!-- NEW: .snippet_block_bpbutton Extra Styles -->
+        <xpath expr="//div[@data-snippet-option-id='snippet_block_bpbutton_style']//ul" position="inside">
+            <li data-value='bpbutton_style_blue'>
+                <a>Blau</a>
+            </li>
+        </xpath>
+        
+<!--        &lt;!&ndash; .snippet_block_banner Options &ndash;&gt;
+        <xpath expr="//div[@data-snippet-option-id='dadi_sb_bg_width']" position="after">
+            <div data-snippet-option-id='tral_sb_banner_width'
+                 data-selector=".snippet_block_banner">
+                &lt;!&ndash; Snippet options menu &ndash;&gt;
+                <li class="dropdown-submenu" data-required="true">
+                    <a tabindex="-1" href="#">Banner Image Width</a>
+                    <ul class="dropdown-menu">
+                        <li data-value='tral_sb_banner_width_normal'><a>Normal</a></li>
+                        <li data-value=''><a>Full Width</a></li>
+                    </ul>
+                </li>
+            </div>
+        </xpath>-->
+        
+ <!--       &lt;!&ndash; .snippet_block_text_image_left, .snippet_block_text_image_right Options &ndash;&gt;
+        <xpath expr="//div[@data-snippet-option-id='drop_in_button_width']" position="after">
+            <div data-snippet-option-id='tral_image_size'
+                 data-selector=".snippet_block_text_image_left,
+                                .snippet_block_text_image_right">
+                &lt;!&ndash; drop_in options menu &ndash;&gt;
+                <li class="dropdown-submenu" data-required="true">
+                    <a tabindex="-1" href="#">Bildgröße</a>
+                    <ul class="dropdown-menu">
+                        <li data-value=''><a>Default</a></li>
+                        <li data-value='tral_large_image'><a>Large</a></li>
+                        <li data-value='tral_medium_image'><a>Medium</a></li>
+                        <li data-value='tral_small_image'><a>Small</a></li>
+                        <li data-value='tral_tiny_image'><a>Tiny</a></li>
+                    </ul>
+                </li>
+            </div>
+            
+            <div data-snippet-option-id='tral_image_styles'
+                 data-selector=".snippet_block_text_image_left">
+                &lt;!&ndash; drop_in options menu &ndash;&gt;
+                <li class="dropdown-submenu" data-required="true">
+                    <a tabindex="-1" href="#">tral Styles</a>
+                    <ul class="dropdown-menu">
+                        <li data-value=''><a>Default</a></li>
+                    </ul>
+                </li>
+            </div>
+            
+            <div data-snippet-option-id='tral_image_height'
+                 data-selector=".snippet_block_text_image_left">
+                &lt;!&ndash; drop_in options menu &ndash;&gt;
+                <li class="dropdown-submenu" data-required="true">
+                    <a tabindex="-1" href="#">Containerhöhe</a>
+                    <ul class="dropdown-menu">
+                        <li data-value=''><a>Default</a></li>
+                        <li data-value='tral_image_height_100'><a>100px</a></li>
+                        <li data-value='tral_image_height_150'><a>150px</a></li>
+                        <li data-value='tral_image_height_200'><a>200px</a></li>
+                        <li data-value='tral_image_height_250'><a>250px</a></li>
+                        <li data-value='tral_image_height_300'><a>300px</a></li>
+                        <li data-value='tral_image_height_400'><a>400px</a></li>
+                    </ul>
+                </li>
+            </div>
+            
+            <div data-snippet-option-id='tral_image_valign'
+                 data-selector=".snippet_block_text_image_left">
+                &lt;!&ndash; drop_in options menu &ndash;&gt;
+                <li class="dropdown-submenu" data-required="true">
+                    <a tabindex="-1" href="#">Vertikale Bildposition</a>
+                    <ul class="dropdown-menu">
+                        <li data-value=''><a>Normal</a></li>
+                        <li data-value='tral_image_valign_middle'><a>Mittig</a></li>
+                        <li data-value='tral_image_valign_bottom'><a>Unten</a></li>
+                    </ul>
+                </li>
+            </div>
+            
+        </xpath>-->
+        
+        
+    </template>
+    
+    
+    
+
+    
+
+</data>
+</openerp>

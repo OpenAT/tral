@@ -1,0 +1,222 @@
+/* ---- */
+/* MAIN */
+/* ---- */
+html, body, #bodyTable, #bodyCell {
+    background-color: #ffffff;
+}
+
+html body #wrapwrap {
+    margin-top: 0;
+}
+.headerCell {
+    font-size: 12px;
+}
+
+#open_in_browser {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/*
+    ====
+    body
+    ====
+*/
+#bodyCell {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+/* ------------------------------- */
+/* tral SIZING FOR 560 PIXEL WIDTH */
+/* ------------------------------- */
+
+#emailBody {
+    width: 100%;
+    background-color: #e5e5e2;
+}
+
+.snippet_block.linespacer_footer,
+.snippet_block.linespacer_footer .flexibleContainer {
+    width: 100%;
+}
+.flexibleContainer {
+    /*width: 100%;*/
+    width: 560px;
+    background-color: white;
+}
+
+/*
+#combinedheadersnippetfullwith table.flexibleContainer,
+#combinedsnippetfooter .footer_header_part table.flexibleContainer,
+#combinedsnippetfooter .linespacer_footer table.flexibleContainer {
+    width: 100%;
+}
+*/
+/*
+#combinedheadersnippetfullwith .nestedContainer,
+#combinedsnippetfooter .footer_header_part .nestedContainer,
+#combinedsnippetfooter .linespacer_footer .nestedContainer {
+    width: 560px;
+}
+*/
+/*
+>tbody tr td.nestedContainer,
+>tbody tr td.nestedContainer,
+>tbody tr td.nestedContainer {
+    width: 560px;
+}
+*/
+
+/* flexibleContainerCell --> TESTEN */
+
+/* TESTING 100% for single Snippet */
+
+/*
+#combinedheadersnippetfullwith .contentTable,
+#combinedsnippetfooter .footer_header_part .contentTable {
+    width: 560px;
+}*
+
+
+/* ---------- */
+/* Typography */
+/* ---------- */
+
+body, p, a {
+    /*font-family: 'PT Sans', 'Trebuchet MS', sans-serif;*/
+    font-family: 'lft-etica', Arial, sans-serif !important;
+    text-rendering: optimizeLegibility;
+    font-size: 12px;
+    color: #000000;
+    line-height: 22px;
+    font-weight: 300;
+    text-align: left;
+    font-style: normal;
+    letter-spacing: 0px;
+}
+/* ATTENTION: Do not add line-height to "td", "div" or "span" elements to support Outlook 2013 and alike */
+p {
+    margin-top: 0;
+    font-weight: 300;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin-bottom: 16px;
+}
+div, span, td {
+    font-size: inherit;
+}
+
+p {
+    /* Top */
+    margin-top: 0;
+    -webkit-margin-before: inherit;
+    /* Bottom */
+    margin-bottom: 0;
+    -webkit-margin-after: inherit;
+    padding-bottom: 0.25em;
+    /* Just reset */
+    -webkit-margin-start: inherit;
+    -webkit-margin-end: inherit;
+}
+/* Links */
+.snippet_block a,
+.snippet_block a:hover,
+.snippet_block a:visited {
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #000000;
+    color: #000000;
+    background-color: #FFEE00;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Headlines */
+.h1, .h2, .h3,
+h1, h2, h3 {
+    margin-top: 10px;
+}
+.h1, .h2, .h3, .h4, .h5, .h6,
+h1, h2, h3, h4, h5, h6 {
+    /*font-family: 'PT Sans', 'Trebuchet MS', sans-serif;*/
+    font-family: 'lft-etica', Arial, sans-serif !important;
+    color: #000000;
+    padding-left: 15px;
+    padding-right: 15px;
+    /* Top */
+    margin-top: 0;
+    -webkit-margin-before: inherit;
+
+    /* Bottom */
+    margin-bottom: 0;
+    -webkit-margin-after: inherit;
+    padding-bottom: 0.25em;
+
+    /* Just reset */
+    -webkit-margin-start: inherit;
+    -webkit-margin-end: inherit;
+}
+.h1, h1 {
+    margin-top: 0px;
+    font-weight: 200;
+    color: #000000;
+    font-size: 21px;
+    line-height: 23px;
+    margin-bottom: 18px;
+    text-align: center;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.h2, h2 {
+    margin-top: 10px;
+    font-weight: 200;
+    color: #000000;
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 10px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.h3, h3 {
+    color: #000000;
+    font-size: 15px;
+    line-height: 23px;
+    margin-bottom: 16px;
+}
+.h4, h4 {
+    font-size: 14px;
+    font-weight: 300;
+}
+.h5, h5 {
+    font-size: 14px;
+    font-weight: 300;
+}
+.h6, h6 {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+blockquote {
+    padding: 11px 22px;
+    margin: 0 0 22px;
+    font-size: 20px;
+    border-left: 5px solid red;
+}
+
+p.tral_small {
+    font-size: 14px;
+    font-weight: regular;
+}
+
+p.tral_tiny {
+    font-size: 12px;
+    font-weight: regular;
+}
+
+.tral_blue {
+    color: #0050a0;
+}
+

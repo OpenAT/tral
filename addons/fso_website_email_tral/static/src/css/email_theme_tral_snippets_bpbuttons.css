@@ -1,0 +1,110 @@
+/*
+    ======================
+    snippet_block_bpbutton
+    ======================
+*/
+
+/* BUGFIX for o8r298 ALREADY INCLUDED IN o8r299 and higher: remove after core update */
+/* Inner anchor */
+.snippet_block_bpbutton .bpbutton_table p {
+    line-height: initial;
+    line-height: normal;
+    /* reset padding */
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    /* reset margin */
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+
+}
+.snippet_block_bpbutton .bpbutton_table,
+.snippet_block_bpbutton .bpbutton_table:hover {
+    box-shadow: none;
+}
+
+.snippet_block_bpbutton .textContent {
+    /*height: 126px;*/
+    padding-bottom: 25px;
+}
+/* Base Style */
+.snippet_block_bpbutton .bpbutton_table,
+.snippet_block_bpbutton .bpbutton_table a,
+.snippet_block_bpbutton .bpbutton_table a:visited {
+    /* BUGFIX for o8r298 ALREADY INCLUDED IN o8r299 and higher */
+    line-height: initial;
+    line-height: normal;
+    /* END BUGFIX */
+    /* font */
+    font-weight: bold;
+    text-underline: none;
+    text-decoration: none;
+    /* for safety */
+    background-color: #C1DEBB;
+    border-color: #C1DEBB;
+    color: #000000;
+}
+
+/*
+    ---------------
+    SNIPPET OPTIONS
+    ---------------
+*/
+
+/* Additional button sizes */
+/* ----------------------- */
+
+.snippet_block_bpbutton.bpbutton_normal .bpbutton_table {
+    border-radius: 0px;
+}
+/* medium*/
+.snippet_block_bpbutton.bpbutton_medium .bpbutton_table {
+    border-radius: 0px;
+}
+.snippet_block_bpbutton.bpbutton_medium .bpbutton_table a {
+    font-size: 18px;
+    border-width: 0.5em 1.25em;
+}
+/* large */
+.snippet_block_bpbutton.bpbutton_large .bpbutton_table {
+    border-radius: 0px;
+    height: 61px;
+    width: 272px;
+}
+.snippet_block_bpbutton.bpbutton_large .bpbutton_table a {
+    font-size: 20px;
+    border-width: 0.5em 1.56em;
+}
+/* huge */
+.snippet_block_bpbutton.bpbutton_huge .bpbutton_table {
+    border-radius: 0px;
+}
+.snippet_block_bpbutton.bpbutton_huge .bpbutton_table a {
+    font-size: 24px;
+    border-width: 0.4em 1.95em;
+}
+
+
+/* Additional button colors */
+/* ------------------------ */
+/* bpbutton_style_default */
+.snippet_block_bpbutton.bpbutton_style_default .bpbutton_table,
+.snippet_block_bpbutton.bpbutton_style_default .bpbutton_table a {
+    background-color: #FFEE00;
+    border-color: #FFEE00;
+    color: #000000;
+    font-weight: bold;
+}
+
+/* Blue */
+.snippet_block_bpbutton.bpbutton_style_blue .bpbutton_table,
+.snippet_block_bpbutton.bpbutton_style_blue .bpbutton_table a {
+    background-color: #0050a0;
+    border-color: #0050a0;
+    color: white;
+    font-weight: bold;
+}
+

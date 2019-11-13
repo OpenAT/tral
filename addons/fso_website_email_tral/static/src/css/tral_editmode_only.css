@@ -1,0 +1,37 @@
+/* fix sticky header space and add bottom space in edit mode */
+#wrapwrap {
+    margin-top: 42px;
+    margin-bottom: 600px;
+}
+
+/* khma_bin */
+/*.khma_bin {*/
+/*    min-height: 100px;*/
+/*    border: 4px dashed #ecccf2;*/
+/*    !*padding: 15px 0;*!*/
+/*}*/
+
+/* Try to make the drop zones easier*/
+.oe_drop_zone.oe_insert {
+    height: 12px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    /*width: 90%;*/
+    border-radius: 0;
+}
+
+.modal-dialog .form-group label {
+    font-size: 13px;
+}
+
+
+/* Hide pictorgram tab for email editor - request from marieke wittneben */
+body .tab-content #editor-media-icon,
+a[href="#editor-media-icon"] {
+    display: none !important;
+}
+
+.btn.btn-primary.hover-edition-button.btn-xs {
+    width: auto;
+}

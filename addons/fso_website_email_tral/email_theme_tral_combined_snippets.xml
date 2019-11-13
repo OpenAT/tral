@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+
+        <!-- INHERIT AND EXTEND theme_default_snippets -->
+        <template id="email_theme_tral_snippets_overrides_prat2" inherit_id="fso_website_email.theme_framework_snippets"
+                  name="Email Theme tral Snippet overrides part2">
+
+            <xpath expr="//li[@id='snippet_menu_special']" position="after">
+                <li id="snippet_menu_combined_snippets_tral">
+                    <a href="#combined_snippets_tral" data-toggle="tab">Combined</a>
+                </li>
+            </xpath>
+
+
+            <!-- ======================= -->
+            <!--  tral COMBINED SNIPPETS -->
+            <!-- ======================= -->
+            <xpath expr="//div[@id='snippet_email_special']" position="after">
+                <div id="combined_snippets_tral" class="tab-pane fade">
+
+                    <!-- HEADER SNIPPET BLOCK ALLG -->
+                    <!-- =============== -->
+                    <div>
+                        <!-- Icon and name -->
+                        <div class="oe_snippet_thumbnail">
+                            <img class="oe_snippet_thumbnail_img"
+                                 src="/fso_website_email_tral/static/src/icons/header_snippet.png"/>
+                            <span class="oe_snippet_thumbnail_title">Header Snippet</span>
+                        </div>
+                        <div class="oe_snippet_body ckediting_disabled tral_bin">
+                            <div id="combinedheadersnippetWebVersion"
+                                 class="ckediting_enabled snippet_block snippet_block_text_intro tral_sb_bg_background"
+                                 contenteditable="false">
+                                <table cellpadding="0" cellspacing="0" class="centeringTable">
+                                    <tbody>
+                                        <tr>
+                                            <td align="center" valign="top">
+                                                <table border="0" cellpadding="0" cellspacing="0"
+                                                       class="flexibleContainer">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td align="center" class="flexibleContainerCell"
+                                                                valign="top">
+                                                                <table border="0" cellpadding="0" cellspacing="0"
+                                                                       class="nestedContainer">
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td align="center"
+                                                                                class="nestedContainerCell"
+                                                                                valign="top">
+                                                                                <table border="0" cellpadding="0"
+                                                                                       cellspacing="0"
+                                                                                       class="contentTable">
+                                                                                    <tbody>
+                                                                                        <tr>
+                                                                                            <td class="textContent ckediting_enabled">
+                                                                                                <p style="text-align: center;">
+                                                                                                    <span style="font-size: 12px; letter-spacing: 0px; text-align: left; background-color: transparent;">
+                                                                                                        Webversion
+                                                                                                    </span>
+                                                                                                </p>
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                    </tbody>
+                                                                                </table>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        <div id="combinedheader"
+                             class="ckediting_enabled snippet_block snippet_block_text_twocol tral_sb_bg_background"
+                             contenteditable="true">
+                            <table cellpadding="0" cellspacing="0" class="centeringTable">
+                                <tbody>
+                                    <tr>
+                                        <td align="center" valign="top">
+                                            <table border="0" cellpadding="0" cellspacing="0"
+                                                   class="flexibleContainer">
+                                                <tbody>
+                                                    <tr>
+                                                        <td align="center" class="flexibleContainerCell"
+                                                            valign="top">
+                                                            <table border="0" cellpadding="0" cellspacing="0"
+                                                                   class="nestedContainer">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td align="center"
+                                                                            class="nestedContainerCell"
+                                                                            valign="top">
+                                                                            <table border="0" cellpadding="0"
+                                                                                   cellspacing="0"
+                                                                                   class="contentTable">
+                                                                                <tbody>
+                                                                                    <tr>
+                                                                                        <td class="textContent">
+                                                                                            <table align="left"
+                                                                                                   border="0"
+                                                                                                   cellpadding="0"
+                                                                                                   cellspacing="0"
+                                                                                                   class="flexibleContainerLeft">
+                                                                                                <tbody>
+                                                                                                    <tr>
+                                                                                                        <td align="center"
+                                                                                                            class="textContent ckediting_enabled"
+                                                                                                            valign="top">
+                                                                                                            <img class="emailThemeHeaderLogo"
+                                                                                                                 data-cke-saved-src="/fso_website_email_tral/static/src/img/logo_tral.png"
+                                                                                                                 src="/fso_website_email_tral/static/src/img/logo_tral.png"/>
+                                                                                                        </td>
+                                                                                                    </tr>
+                                                                                                </tbody>
+                                                                                            </table>
+
+                                                                                            <table align="right"
+                                                                                                   border="0"
+                                                                                                   cellpadding="0"
+                                                                                                   cellspacing="0"
+                                                                                                   class="flexibleContainerRight">
+                                                                                                <tbody>
+                                                                                                    <tr>
+                                                                                                        <td align="center"
+                                                                                                            class="textContent ckediting_enabled"
+                                                                                                            valign="top">
+                                                                                                            <p style="text-align: right;">
+                                                                                                                <span style="font-size: 15px; letter-spacing: 0px;">
+                                                                                                                    H
+                                                                                                                </span>
+                                                                                                                <span style="font-size: 15px; letter-spacing: 0px;">
+                                                                                                                    ILFT
+                                                                                                                    KINDERN
+                                                                                                                </span>
+                                                                                                            </p>
+                                                                                                        </td>
+                                                                                                    </tr>
+                                                                                                </tbody>
+                                                                                            </table>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        </div>
+                    </div>
+
+                    <!-- FOOTER SNIPPET BLOCK -->
+                    <!-- =============== -->
+                <div>
+                    <!-- Icon and name -->
+                    <div class="oe_snippet_thumbnail">
+                        <img class="oe_snippet_thumbnail_img"
+                             src="/fso_website_email_tral/static/src/icons/footer_snippet.png"/>
+                        <span class="oe_snippet_thumbnail_title">Footer Snippet</span>
+                    </div>
+                    <div class="oe_snippet_body ckediting_disabled tral_bin">
+                        <div id="combinedfooter">
+                            <div class="ckediting_disabled snippet_block snippet_block_text_intro tral_sb_bg_tralgreen">
+                                <table cellpadding="0" cellspacing="0" class="centeringTable">
+                                    <tbody>
+                                        <tr>
+                                            <td align="center" valign="top">
+                                                <table border="0" cellpadding="0" cellspacing="0"
+                                                       class="flexibleContainer">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td align="center" class="flexibleContainerCell"
+                                                                valign="top">
+                                                                <table border="0" cellpadding="0" cellspacing="0"
+                                                                       class="nestedContainer">
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td align="center"
+                                                                                class="nestedContainerCell"
+                                                                                valign="top">
+                                                                                <table border="0" cellpadding="0"
+                                                                                       cellspacing="0"
+                                                                                       class="contentTable">
+                                                                                    <tbody>
+                                                                                        <tr>
+                                                                                            <td class="textContent ckediting_enabled">
+                                                                                                <p>
+                                                                                                    <span style="font-size: 12px; letter-spacing: 0px; text-align: left; background-color: transparent;">
+                                                                                                        Menschen, die
+                                                                                                        aus ihrer
+                                                                                                        Heimat
+                                                                                                        geflüchtet sind,
+                                                                                                        wollen möglichst
+                                                                                                        schnell
+                                                                                                        die Sprache des
+                                                                                                        Zufluchtslandes
+                                                                                                        lernen
+                                                                                                        und eine Arbeit
+                                                                                                        zur
+                                                                                                        Finanzierung
+                                                                                                        ihres
+                                                                                                        Lebens finden.
+                                                                                                        Nur so
+                                                                                                        kann das Erlebte
+                                                                                                        rasch
+                                                                                                        aufgearbeitet
+                                                                                                        werden und
+                                                                                                        ein neues Leben
+                                                                                                        beginnen.&amp;nbsp;
+                                                                                                    </span>
+                                                                                                </p>
+
+                                                                                                <p>
+                                                                                                    <span style="font-size: 12px; letter-spacing: 0px; text-align: left; background-color: transparent;"></span>
+                                                                                                </p>
+
+                                                                                                <p>
+                                                                                                    <span style="font-size: 12px; letter-spacing: 0px; text-align: left; background-color: transparent;">
+                                                                                                        Tralalobe
+                                                                                                        unterstützt
+                                                                                                        derzeit über 230
+                                                                                                        geflüchtete
+                                                                                                        Personen auf
+                                                                                                        ihrem Weg in
+                                                                                                        eine
+                                                                                                        bessere Zukunft.
+                                                                                                        Darunter
+                                                                                                        befinden sich
+                                                                                                        zahlreiche
+                                                                                                        unbegleitete
+                                                                                                        minderjährige
+                                                                                                        Kinder und
+                                                                                                        alleinstehende
+                                                                                                        Frauen
+                                                                                                        mit
+                                                                                                        Kleinkindern.
+                                                                                                        Durch
+                                                                                                        individuelle
+                                                                                                        Förderung
+                                                                                                        unterstützen wir
+                                                                                                        Schul-
+                                                                                                        und
+                                                                                                        Weiterbildung,
+                                                                                                        Lehrlingsprogramme,
+                                                                                                        Wohnungssicherung,
+                                                                                                        das
+                                                                                                        Erlangen einer
+                                                                                                        dauerhaften
+                                                                                                        Arbeitsstelle
+                                                                                                        und vieles
+                                                                                                        mehr. Ihre <u>
+                                                                                                        Spende
+                                                                                                    </u> wirkt.
+                                                                                                        Vielen Dank!
+                                                                                                    </span>
+                                                                                                </p>
+
+                                                                                                <p>
+                                                                                                    <span style="font-size: 12px; letter-spacing: 0px; text-align: left; background-color: transparent;"></span>
+                                                                                                </p>
+
+                                                                                                <p>
+                                                                                                    <span style="font-size: 12px; letter-spacing: 0px; text-align: left; background-color: transparent;">
+                                                                                                        <strong>
+                                                                                                            Tralalobe,
+                                                                                                            Verein zur
+                                                                                                            Förderung
+                                                                                                            und Hilfe
+                                                                                                            von
+                                                                                                            Bedürftigen
+                                                                                                        </strong>
+                                                                                                        <br/>
+                                                                                                        1080 Wien,
+                                                                                                        Lerchenfelder
+                                                                                                        Gürtel 48/14 *
+                                                                                                        Tel.
+                                                                                                        xxxxxxxxxxxxxxx
+                                                                                                    </span>
+                                                                                                </p>
+
+                                                                                                <p>
+                                                                                                    <span style="font-size: 12px; letter-spacing: 0px; text-align: left; background-color: transparent;">
+                                                                                                        <a href="mailto:spenden@tralalobe.at">
+                                                                                                            spenden@tralalobe.at
+                                                                                                        </a>
+                                                                                                        *&amp;nbsp;&amp;nbsp;<img class="absetzbar"
+                                                                                                                          data-cke-saved-src="/fso_website_email_tral/static/src/icons/facebook_logo.png"
+                                                                                                                     src="/fso_website_email_tral/static/src/icons/facebook_logo.png"/>
+                                                                                                    </span>
+                                                                                                </p>
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                    </tbody>
+                                                                                </table>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="ckediting_enabled snippet_block snippet_block_text_image_right tral_sb_bg_tralgreen">
+                                <table cellpadding="0" cellspacing="0" class="centeringTable">
+                                    <tbody>
+                                        <tr>
+                                            <td align="center" valign="top">
+                                                <table border="0" cellpadding="0" cellspacing="0"
+                                                       class="flexibleContainer">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td align="center" class="flexibleContainerCell"
+                                                                valign="top">
+                                                                <table border="0" cellpadding="0" cellspacing="0"
+                                                                       class="nestedContainer">
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td align="center"
+                                                                                class="nestedContainerCell"
+                                                                                valign="top">
+                                                                                <table border="0" cellpadding="0"
+                                                                                       cellspacing="0"
+                                                                                       class="contentTable">
+                                                                                    <tbody>
+                                                                                        <tr>
+                                                                                            <td class="textContent">
+                                                                                                <table align="left"
+                                                                                                       border="0"
+                                                                                                       cellpadding="0"
+                                                                                                       cellspacing="0"
+                                                                                                       class="flexibleContainerLeft">
+                                                                                                    <tbody>
+                                                                                                        <tr>
+                                                                                                            <td class="textContent ckediting_enabled"
+                                                                                                                valign="top">
+                                                                                                                <h2>
+                                                                                                                    <span style="font-size: 18px; letter-spacing: -0.01em; background-color: transparent;">
+                                                                                                                        Spendenkonto
+                                                                                                                        Erste
+                                                                                                                        Bank&amp;nbsp;
+                                                                                                                        &amp;nbsp;
+                                                                                                                        &amp;nbsp;
+                                                                                                                    </span>
+                                                                                                                </h2>
+
+                                                                                                                <h2>AT70
+                                                                                                                    2011
+                                                                                                                    1841
+                                                                                                                    5332
+                                                                                                                    5500
+                                                                                                                </h2>
+                                                                                                            </td>
+                                                                                                        </tr>
+                                                                                                    </tbody>
+                                                                                                </table>
+
+                                                                                                <table align="right"
+                                                                                                       border="0"
+                                                                                                       cellpadding="0"
+                                                                                                       cellspacing="0"
+                                                                                                       class="flexibleContainerRight">
+                                                                                                    <tbody>
+                                                                                                        <tr>
+                                                                                                            <td align="left"
+                                                                                                                class="imageContent ckediting_enabled"
+                                                                                                                valign="top">
+                                                                                                                <img class="flexibleImage absetzbar"
+                                                                                                                     data-cke-saved-src="/fso_website_email_tral/static/src/img/absetzbar.png"
+                                                                                                                     src="/fso_website_email_tral/static/src/img/absetzbar.png"/>
+                                                                                                            </td>
+                                                                                                        </tr>
+                                                                                                    </tbody>
+                                                                                                </table>
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                    </tbody>
+                                                                                </table>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="ckediting_enabled snippet_block snippet_block_text_intro tral_sb_bg_tralgreen">
+                                <table cellpadding="0" cellspacing="0" class="centeringTable">
+                                    <tbody>
+                                        <tr>
+                                            <td align="center" valign="top">
+                                                <table border="0" cellpadding="0" cellspacing="0"
+                                                       class="flexibleContainer">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td align="center" class="flexibleContainerCell"
+                                                                valign="top">
+                                                                <table border="0" cellpadding="0" cellspacing="0"
+                                                                       class="nestedContainer">
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td align="center"
+                                                                                class="nestedContainerCell"
+                                                                                valign="top">
+                                                                                <table border="0" cellpadding="0"
+                                                                                       cellspacing="0"
+                                                                                       class="contentTable">
+                                                                                    <tbody>
+                                                                                        <tr>
+                                                                                            <td class="textContent ckediting_enabled">
+                                                                                                <p>
+                                                                                                    <span style="font-size: 12px; letter-spacing: 0px; text-align: left; background-color: transparent;">
+                                                                                                        Impressum *
+                                                                                                        ZVR-Nr.
+                                                                                                        456478266 *
+                                                                                                        Datenschutz
+                                                                                                    </span>
+                                                                                                </p>
+
+                                                                                                <p>Sie sind mit dieser
+                                                                                                    Adresse
+                                                                                                    registriert:&amp;nbsp;
+                                                                                                    <span
+                                                                                                            class="ckediting_disabled drop_in drop_in_print_field pf_email">
+                                                                                                        <span class="pf_email"
+                                                                                                              data-fs-email-placeholder="%Email%"
+                                                                                                              title="%Email%">
+                                                                                                            maximilian.mustermann@meinedomain.com
+                                                                                                        </span>
+                                                                                                    </span>
+                                                                                                </p>
+
+                                                                                                <p>Daten ändern /
+                                                                                                    <a href="https://www.tralalobe.at/newsletterabmeldung"
+                                                                                                       target="_blank">
+                                                                                                        Abmelden
+                                                                                                    </a>
+                                                                                                </p>
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                    </tbody>
+                                                                                </table>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </xpath>
+        </template>
+
+
+    </data>
+</openerp>

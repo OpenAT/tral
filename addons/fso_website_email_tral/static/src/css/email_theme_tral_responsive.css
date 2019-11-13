@@ -1,0 +1,68 @@
+/* ---------- */
+/* RESPONSIVE */
+/* ---------- */
+
+@media only screen and (max-width: 480px) {
+    /*#pfot_header_body {*/
+    /*    display: none !important;*/
+    /*}*/
+
+    /*#pfot_header_body, #emailBody, #pfot_footer_body,*/
+    /*table.flexibleContainer {*/
+    /*    width: 100% !important;*/
+    /*}*/
+
+    img.flexibleImage {
+        max-width: 100% !important;
+    }
+
+    img.emailThemeHeaderLogo {
+    width: 30%;
+    height: auto;
+    }
+    #combinedfooter img.flexibleImage.absetzbar {
+    width: 130px !important;
+    height: auto;
+    }
+
+    #emailBody,
+    table.flexibleContainer {
+        width: 100% !important;
+    }
+
+    .h1, h1{
+        font-size: 24px;
+        padding-bottom: 12px;
+        font-weight: 700;
+    }
+
+    .h2, h2{
+        font-size: 22px;
+        font-weight: 700;
+    }
+
+    .h3, h3{
+        font-size: 20px;
+        font-weight: 300;
+    }
+
+    .h4, h4{
+        font-size: 18px;
+        font-weight: 300;
+    }
+
+    .h5, h5{
+        font-size: 16px;
+        font-weight: 300;
+    }
+
+    .h6, h6{
+        font-size: 14px;
+        font-weight: 300;
+    }
+
+    body #emailBody .snippet_block_text_image_left .flexibleContainerLeft {
+    min-height: inherit;
+}
+
+}

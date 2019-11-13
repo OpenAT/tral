@@ -1,0 +1,258 @@
+/* ------------------------------- */
+/* tral SIZING FOR 560 PIXEL WIDTH */
+/* ------------------------------- */
+.snippet_block_banner.dadi_sb_bg_full .flexibleImage {
+    width: 560px;
+}
+img.flexibleImage.snippet_block_banner_image {
+        width: 560px;
+}
+.flexibleContainer {
+    /*width: 560px;*/
+}
+.snippet_block_text_image_left .flexibleContainerRight {
+    width: 260px;
+}
+
+.snippet_block_text_image_left .flexibleContainerLeft .flexibleImage {
+    width: 260px;
+    height: auto;
+}
+
+.snippet_block_text_image_left.tral_sb_fg_blue .flexibleContainerRight,
+.snippet_block_text_image_left.tral_sb_fg_background .flexibleContainerRight {
+    width: 260px;
+}
+
+.snippet_block_text_image_right .flexibleContainerLeft {
+    width: 260px;
+}
+
+.snippet_block_text_image_right .flexibleContainerRight .flexibleImage {
+    width: 260px;
+    height: auto;
+}
+
+.snippet_block_text_image_right.tral_sb_fg_blue .flexibleContainerLeft,
+.snippet_block_text_image_right.tral_sb_fg_background .flexibleContainerLeft {
+    width: 270px;
+}
+
+.snippet_block_text_twocol .flexibleContainerCell {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.snippet_block_text_twocol .flexibleContainer {
+    background-color: transparent;
+}
+
+.snippet_block_text_twocol .flexibleContainerRight,
+.snippet_block_text_twocol .flexibleContainerRight .flexibleImage {
+    width: 270px;
+    background-color: white;
+}
+
+.snippet_block_text_twocol .flexibleContainerLeft,
+.snippet_block_text_twocol .flexibleContainerLeft .flexibleImage {
+    width: 270px;
+    background-color: white;
+}
+
+.snippet_block_text_twocol .flexibleContainerRight .textContent p {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.snippet_block_text_twocol .flexibleContainerLeft .textContent p {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.snippet_block_text_threecol .flexibleContainer33,
+.snippet_block_text_threecol .flexibleContainer33 .flexibleImage {
+    width: 160px;
+}
+
+.snippet_block_spacer .flexibleContainer {
+    background-color: transparent;
+}
+/*
+.snippet_block_banner.dadi_sb_bg_full .flexibleImage {
+    width: 560px;
+    max-width: 560px;
+}*/
+/*
+.snippet_block_banner.dadi_sb_bg_narrow .flexibleImage {
+    width: 540px;
+    max-width: 540px;
+
+}*/
+
+/* --------------- */
+/* SNIPPET OPTIONS */
+/* --------------- */
+
+/* Reset flexibleContainercell padding */
+.flexibleContainerCell {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Background and Foreground Options for Snippet Blocks */
+/* ---------------------------------------------------- */
+.tral_sb_bg_background .flexibleContainerCell,
+.tral_sb_fg_background .flexibleContainerCell .nestedContainerCell {
+    background-color: #ffffff;
+}
+.tral_sb_bg_blue .flexibleContainerCell,
+.tral_sb_fg_blue .flexibleContainerCell .nestedContainerCell {
+    /*background-color: #ab1455;*/
+    background-color: #0050a0;
+}
+.tral_sb_bg_white .flexibleContainerCell,
+.tral_sb_fg_white .flexibleContainerCell .nestedContainerCell {
+    background-color: white;
+}
+.tral_sb_bg_tralgreen .flexibleContainerCell,
+.tral_sb_fg_tralgreen .flexibleContainerCell .nestedContainerCell {
+    /*background-color: #ab1455;*/
+    background-color: #C1DEBB;
+}
+
+.tral_sb_fg_background .flexibleContainerCell .nestedContainerCell,
+.tral_sb_fg_blue .flexibleContainerCell .nestedContainerCell,
+.tral_sb_fg_tralgreen .flexibleContainerCell .nestedContainerCell,
+.tral_sb_fg_white .flexibleContainerCell .nestedContainerCell {
+
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 0;
+}
+
+/* tral_snipped_block_img_padding_top */
+/* ---------------------------------- */
+.snippet_block_text_threecol .flexibleContainer33 .flexibleImage.tral_snippet_block_img_padding_top_none {
+    padding-top: initial;
+}
+.snippet_block_text_threecol .flexibleContainer33 .flexibleImage.tral_snippet_block_img_padding_top_10 {
+    padding-top: 10px;
+}
+.snippet_block_text_threecol .flexibleContainer33 .flexibleImage.tral_snippet_block_img_padding_top_20 {
+    padding-top: 20px;
+}
+.snippet_block_text_threecol .flexibleContainer33 .flexibleImage.tral_snippet_block_img_padding_top_30 {
+    padding-top: 30px;
+}
+.snippet_block_text_threecol .flexibleContainer33 .flexibleImage.tral_snippet_block_img_padding_top_40 {
+    padding-top: 40px;
+}
+.snippet_block_text_threecol .flexibleContainer33 .flexibleImage.tral_snippet_block_img_padding_top_50 {
+    padding-top: 50px;
+}
+.snippet_block_text_threecol .flexibleContainer33 .flexibleImage.tral_snippet_block_img_padding_top_60 {
+    padding-top: 60px;
+}
+
+/*
+    This will work with outlook on windows
+*/
+.snippet_block_text_image_left.tral_image_height_100 .contentTable .flexibleContainerRight {
+    min-height: 100px;
+}
+.snippet_block_text_image_left.tral_image_height_150 .contentTable .flexibleContainerRight {
+    min-height: 150px;
+}
+.snippet_block_text_image_left.tral_image_height_200 .contentTable .flexibleContainerRight {
+    min-height: 200px;
+}
+.snippet_block_text_image_left.tral_image_height_250 .contentTable .flexibleContainerRight {
+    min-height: 250px;
+}
+.snippet_block_text_image_left.tral_image_height_300 .contentTable .flexibleContainerRight {
+    min-height: 300px;
+}
+.snippet_block_text_image_left.tral_image_height_400 .contentTable .flexibleContainerRight {
+    min-height: 400px;
+}
+
+.snippet_block_text_image_left.tral_image_height_100 .contentTable .flexibleContainerLeft .imageContent {
+    height: 100px;
+}
+.snippet_block_text_image_left.tral_image_height_150 .contentTable .flexibleContainerLeft .imageContent {
+    height: 150px;
+}
+.snippet_block_text_image_left.tral_image_height_200 .contentTable .flexibleContainerLeft .imageContent {
+    height: 200px;
+}
+.snippet_block_text_image_left.tral_image_height_250 .contentTable .flexibleContainerLeft .imageContent {
+    height: 250px;
+}
+.snippet_block_text_image_left.tral_image_height_300 .contentTable .flexibleContainerLeft .imageContent {
+    height: 300px;
+}
+.snippet_block_text_image_left.tral_image_height_400 .contentTable .flexibleContainerLeft .imageContent {
+    height: 400px;
+}
+
+
+/* .snippet_block_text_image_left Image Vertical Align */
+/* --------------------------------------------------- */
+.snippet_block_text_image_left.tral_image_valign_middle .flexibleContainerLeft .imageContent{
+    vertical-align: middle;
+}
+.snippet_block_text_image_left.tral_image_valign_bottom .flexibleContainerLeft .imageContent{
+    vertical-align: bottom;
+}
+
+/* Optional Settings if needed*/
+
+/* tral_snippet_block_padding */
+/* -------------------------- */
+/*
+.snippet_block.tral_snippet_block_padding_none .flexibleContainer .flexibleContainerCell {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.snippet_block.tral_snippet_block_padding_lower .flexibleContainer .flexibleContainerCell {
+    padding-bottom: 0;
+}
+.snippet_block.tral_snippet_block_padding_smallbox .flexibleContainer .flexibleContainerCell {
+    padding-top: 12px;
+    padding-bottom: 5px;
+}
+.snippet_block.tral_snippet_block_padding_largebox .flexibleContainer .flexibleContainerCell {
+    padding-top: 32px;
+    padding-bottom: 25px;
+}
+*/
+
+/* .snippet_block_text_image_left Image Height */
+/* ------------------------------------------- */
+/*
+    min-height would be the best option but will not work in outlook on windows :( I HATE OUTLOOK !!!!
+*/
+/*.snippet_block_text_image_left.tral_image_height_100 .contentTable .flexibleContainerRight,
+.snippet_block_text_image_left.tral_image_height_100 .contentTable .flexibleContainerLeft {
+    min-height: 100px;
+}
+.snippet_block_text_image_left.tral_image_height_150 .contentTable .flexibleContainerRight,
+.snippet_block_text_image_left.tral_image_height_150 .contentTable .flexibleContainerLeft {
+    min-height: 150px;
+}
+.snippet_block_text_image_left.tral_image_height_200 .contentTable .flexibleContainerRight,
+.snippet_block_text_image_left.tral_image_height_200 .contentTable .flexibleContainerLeft {
+    min-height: 200px;
+}
+.snippet_block_text_image_left.tral_image_height_250 .contentTable .flexibleContainerRight,
+.snippet_block_text_image_left.tral_image_height_250 .contentTable .flexibleContainerLeft {
+    min-height: 250px;
+}
+.snippet_block_text_image_left.tral_image_height_300 .contentTable .flexibleContainerRight,
+.snippet_block_text_image_left.tral_image_height_300 .contentTable .flexibleContainerLeft {
+    min-height: 300px;
+}
+.snippet_block_text_image_left.tral_image_height_400 .contentTable .flexibleContainerRight,
+.snippet_block_text_image_left.tral_image_height_400 .contentTable .flexibleContainerLeft {
+    min-height: 400px;
+}*/

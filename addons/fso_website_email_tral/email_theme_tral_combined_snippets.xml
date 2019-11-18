@@ -57,9 +57,12 @@
                                                                                         <tr>
                                                                                             <td class="textContent ckediting_enabled">
                                                                                                 <p style="text-align: center;">
-                                                                                                    <span style="font-size: 12px; letter-spacing: 0px; text-align: left; background-color: transparent;">
-                                                                                                        Webversion
-                                                                                                    </span>
+                                                                                                    <a href="%open_browser%"
+                                                                                                       data-cke-saved-href="%open_browser%"
+                                                                                                       target="_blank"
+                                                                                                       style="font-size: 12px; letter-spacing: 0px; text-align: left; background-color: transparent;">
+                                                                                                        zur Online Version
+                                                                                                    </a>
                                                                                                 </p>
                                                                                             </td>
                                                                                         </tr>
@@ -289,8 +292,7 @@
                                                                                                         1080 Wien,
                                                                                                         Lerchenfelder
                                                                                                         Gürtel 48/14 *
-                                                                                                        Tel.
-                                                                                                        xxxxxxxxxxxxxxx
+                                                                                                        Tel. +43 670 4020076
                                                                                                     </span>
                                                                                                 </p>
 
@@ -299,9 +301,12 @@
                                                                                                         <a href="mailto:spenden@tralalobe.at">
                                                                                                             spenden@tralalobe.at
                                                                                                         </a>
-                                                                                                        *&amp;nbsp;&amp;nbsp;<img class="absetzbar"
+                                                                                                        *&amp;nbsp;&amp;nbsp;<a href="https://www.facebook.com/tralalobe"
+                                                                                                                       target="_blank">
+                                                                                                                        <img class="socialmedia"
                                                                                                                           data-cke-saved-src="/fso_website_email_tral/static/src/icons/facebook_logo.png"
                                                                                                                      src="/fso_website_email_tral/static/src/icons/facebook_logo.png"/>
+                                                                                                                     </a>
                                                                                                     </span>
                                                                                                 </p>
                                                                                             </td>

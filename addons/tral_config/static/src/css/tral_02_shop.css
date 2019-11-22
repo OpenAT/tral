@@ -192,6 +192,9 @@ th {
 #add_to_cart {
     margin-top: 9px !important;
 }
+.tab-content {
+    min-height: 95px;
+}
 
 /* ---------------- */
 /* TRALALOBE BOOTSTRAP CUSTOM */

@@ -17,7 +17,7 @@
     }
 
     img.emailThemeHeaderLogo {
-    width: 30%;
+    width: 100%;
     height: auto;
     }
     #combinedfooter img.flexibleImage.absetzbar {
@@ -64,5 +64,8 @@
     body #emailBody .snippet_block_text_image_left .flexibleContainerLeft {
     min-height: inherit;
 }
+    table.flexibleContainerRight, table.flexibleContainerLeft, table.flexibleContainer33 {
+        text-align: initial !important;
+    }
 
 }

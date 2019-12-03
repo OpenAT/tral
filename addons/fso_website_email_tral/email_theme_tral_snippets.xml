@@ -80,6 +80,7 @@
                         <li data-value='tral_sb_fg_white'><a>White</a></li>
                         <li data-value='tral_sb_fg_tralgreen'><a>tral Grün</a></li>
                         <li data-value='tral_sb_fg_background'><a>Background</a></li>
+                        <li data-value='tral_sb_bg_none'><a>Keine</a></li>
                     </ul>
                 </li>
             </div>
@@ -92,6 +93,9 @@
                 <li data-value='tral_sb_bg_white'><a>White</a></li>
                 <li data-value='tral_sb_bg_tralgreen'><a>tral Grün</a></li>
                 <li data-value='tral_sb_bg_background'><a>Background</a></li>
+                <li data-value='tral_sb_bg_none'><a>Keine</a></li>
+
+
             </ul>
         </xpath>
 

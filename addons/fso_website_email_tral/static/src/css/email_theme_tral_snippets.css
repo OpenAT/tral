@@ -103,6 +103,10 @@ img.flexibleImage.snippet_block_banner_image {
 .tral_sb_fg_background .flexibleContainerCell .nestedContainerCell {
     background-color: #ffffff;
 }
+.tral_sb_bg_none .flexibleContainerCell,
+.tral_sb_fg_none .flexibleContainerCell .nestedContainerCell {
+    background-color: #e5e5e2;
+}
 .tral_sb_bg_blue .flexibleContainerCell,
 .tral_sb_fg_blue .flexibleContainerCell .nestedContainerCell {
     /*background-color: #ab1455;*/
@@ -117,16 +121,32 @@ img.flexibleImage.snippet_block_banner_image {
     /*background-color: #ab1455;*/
     background-color: #C1DEBB;
 }
-
-.tral_sb_fg_background .flexibleContainerCell .nestedContainerCell,
-.tral_sb_fg_blue .flexibleContainerCell .nestedContainerCell,
-.tral_sb_fg_tralgreen .flexibleContainerCell .nestedContainerCell,
-.tral_sb_fg_white .flexibleContainerCell .nestedContainerCell {
+/*
+.snippet_block_text_twocol.tral_sb_fg_white .flexibleContainerCell .nestedContainerCell .flexibleContainerLeft .textContent{
+        background-color: #e5e5e2;
+}
+.snippet_block_text_twocol.tral_sb_fg_tralgreen .flexibleContainerCell .nestedContainerCell .flexibleContainerLeft .textContent{
+        background-color: #C1DEBB;
+}
+.snippet_block_text_twocol.tral_sb_fg_blue .flexibleContainerCell .nestedContainerCell .flexibleContainerLeft .textContent{
+        background-color: #0050a0;
+}
+.snippet_block_text_twocol.tral_sb_fg_background .flexibleContainerCell .nestedContainerCell .flexibleContainerLeft .textContent{
+        background-color: #ffffff;
+}
+.snippet_block_text_twocol.tral_sb_fg_none .flexibleContainerCell .nestedContainerCell .flexibleContainerLeft .textContent{
+        background-color: #e5e5e2;
+}
+*/
+.snippet_block_text_twocol .tral_sb_fg_background .flexibleContainerCell .nestedContainerCell,
+.snippet_block_text_twocol .tral_sb_fg_blue .flexibleContainerCell .nestedContainerCell,
+.snippet_block_text_twocol .tral_sb_fg_tralgreen .flexibleContainerCell .nestedContainerCell,
+.snippet_block_text_twocol .tral_sb_fg_white .flexibleContainerCell .nestedContainerCell {
 
     padding-left: 0px;
     padding-right: 0px;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 0px;
+    padding-bottom: 0px;
     border-radius: 0;
 }
 

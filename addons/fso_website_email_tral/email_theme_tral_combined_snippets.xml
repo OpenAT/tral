@@ -204,7 +204,7 @@
                                                                                         <tr>
                                                                                             <td class="textContent ckediting_enabled">
                                                                                                 <p>
-                                                                                                    <span style="font-size: 12px; letter-spacing: 0px; text-align: left; background-color: transparent;">
+                                                                                                    <span style="font-size: 14px; letter-spacing: 0px; text-align: left; background-color: transparent;">
                                                                                                         Menschen, die
                                                                                                         aus ihrer
                                                                                                         Heimat
@@ -230,14 +230,14 @@
                                                                                                 </p>
 
                                                                                                 <p>
-                                                                                                    <span style="font-size: 12px; letter-spacing: 0px; text-align: left; background-color: transparent;"></span>
+                                                                                                    <span style="font-size: 14px; letter-spacing: 0px; text-align: left; background-color: transparent;"></span>
                                                                                                 </p>
 
                                                                                                 <p>
-                                                                                                    <span style="font-size: 12px; letter-spacing: 0px; text-align: left; background-color: transparent;">
+                                                                                                    <span style="font-size: 14px; letter-spacing: 0px; text-align: left; background-color: transparent;">
                                                                                                         Tralalobe
                                                                                                         unterstützt
-                                                                                                        derzeit über 230
+                                                                                                        derzeit über 260
                                                                                                         geflüchtete
                                                                                                         Personen auf
                                                                                                         ihrem Weg in
@@ -274,11 +274,11 @@
                                                                                                 </p>
 
                                                                                                 <p>
-                                                                                                    <span style="font-size: 12px; letter-spacing: 0px; text-align: left; background-color: transparent;"></span>
+                                                                                                    <span style="font-size: 14px; letter-spacing: 0px; text-align: left; background-color: transparent;"></span>
                                                                                                 </p>
 
                                                                                                 <p>
-                                                                                                    <span style="font-size: 12px; letter-spacing: 0px; text-align: left; background-color: transparent;">
+                                                                                                    <span style="font-size: 14px; letter-spacing: 0px; text-align: left; background-color: transparent;">
                                                                                                         <strong>
                                                                                                             Tralalobe,
                                                                                                             Verein zur
@@ -296,7 +296,7 @@
                                                                                                 </p>
 
                                                                                                 <p>
-                                                                                                    <span style="font-size: 12px; letter-spacing: 0px; text-align: left; background-color: transparent;">
+                                                                                                    <span style="font-size: 14px; letter-spacing: 0px; text-align: left; background-color: transparent;">
                                                                                                         <a href="mailto:spenden@tralalobe.at">
                                                                                                             spenden@tralalobe.at
                                                                                                         </a>
@@ -359,9 +359,9 @@
                                                                                                             <td class="textContent ckediting_enabled"
                                                                                                                 valign="top">
                                                                                                                     <span style="font-size: 14px; letter-spacing: -0.01em; background-color: transparent;">
-                                                                                                                        <strong>Spendenkonto:</strong><br></br>
+                                                                                                                        <strong>Spendenkonten:</strong><br></br>
                                                                                                                         Erste Bank: AT70 2011 1841 5332 5500<br></br>
-                                                                                                                        BA UniCredit: AT70 2011 1841 5332 5500<br></br>
+                                                                                                                        BA UniCredit: AT05 1200 0100 0038 4445<br></br>
                                                                                                                     </span>
                                                                                                             </td>
                                                                                                         </tr>
@@ -427,7 +427,7 @@
                                                                                         <tr>
                                                                                             <td class="textContent ckediting_enabled">
                                                                                                 <p>
-                                                                                                    <span style="font-size: 12px; letter-spacing: 0px; text-align: left; background-color: transparent;">
+                                                                                                    <span style="font-size: 14px; letter-spacing: 0px; text-align: left; background-color: transparent;">
                                                                                                         <a href="https://www.tralalobe.at/kontakt" target="_blank">Impressum</a>
                                                                                                         *
                                                                                                         <a href="https://www.tralalobe.at/datenschutz" target="_blank">Datenschutz</a>
@@ -436,12 +436,12 @@
                                                                                                     </span>
                                                                                                 </p>
 
-                                                                                                <p>Sie sind mit dieser
+                                                                                                <p style="font-size: 14px;">Sie sind mit dieser
                                                                                                     Adresse
                                                                                                     registriert:&amp;nbsp;
                                                                                                     <span
                                                                                                             class="ckediting_disabled drop_in drop_in_print_field pf_email">
-                                                                                                        <span class="pf_email"
+                                                                                                        <span style="font-size: 14px;" class="pf_email"
                                                                                                               data-fs-email-placeholder="%Email%"
                                                                                                               title="%Email%">
                                                                                                             maximilian.mustermann@meinedomain.com
@@ -449,7 +449,7 @@
                                                                                                     </span>
                                                                                                 </p>
 
-                                                                                                <p>Daten ändern Tel. 0670 402 00 76 /
+                                                                                                <p style="font-size: 14px;">Daten ändern Tel. 0670 402 00 76 /
                                                                                                     <a href="https://www.tralalobe.at/newsletterabmeldung"
                                                                                                        target="_blank">
                                                                                                         Abmelden

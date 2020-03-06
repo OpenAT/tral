@@ -240,3 +240,7 @@ label {
 .col-md-push-8 {
     left: 60%;
 }
+.text-muted {
+    color: #000000;
+    font-weight: 200;
+}

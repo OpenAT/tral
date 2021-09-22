@@ -200,15 +200,6 @@ th {
 /* TRALALOBE BOOTSTRAP CUSTOM von Michael Holzgruber */
 /* ---------------- */
 
-.container {
-  padding-right: 0;
-  padding-left: 0;
-}
-@media (min-width: 722px) {
-  .container {
-    width: 722px;
-  }
-}
 h1,
 h2,
 h3,
@@ -223,6 +214,9 @@ h6,
 .h6 {
   line-height: 1.2;
 }
+h1 {
+  text-transform: uppercase;
+}
 .text-danger {
   color: #000000;
   background: #C1DEBB;
@@ -236,9 +230,6 @@ label {
 }
 .form-control {
   color: #000000;
-}
-.col-md-push-8 {
-    left: 60%;
 }
 .text-muted {
     color: #000000;
